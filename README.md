@@ -1,2 +1,2 @@
-# sditeso2016
+# Software Design ITESO 2016
 Software Design fundamentals
