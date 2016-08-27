@@ -1,0 +1,88 @@
+body {
+	font-family: 'Roboto';
+	margin: 0;
+	padding: 0;
+}
+
+#nav-bar {
+	margin: 0;
+	padding: 0;
+}
+
+
+#nav-bar-home {
+	float: left; 
+	font-weight: 300;
+	font-size: 1.2em;
+}
+
+#nav-list {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ABABAB;
+}
+
+#nav-list li {
+	float: right;
+}
+
+#nav-list li a {
+	overflow: hidden;
+	text-decoration: none;
+
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+	
+	display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+	font-weight: 300;
+}
+
+#nav-list li a:hover {
+	background-color: rgb( 40, 44, 47 );
+}
+
+#nav-list-icon {
+	display: none;
+}
+
+/* Responsive nav-bar queries */
+@media screen and (max-width:680px) {
+  #nav-list li:not(:first-child) {
+	  display: none;
+	}
+  #nav-list-icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media screen and (max-width:680px) {
+  #nav-list.responsive {
+	  position: relative;
+	  background-color: #ABABAB;
+	}
+  #nav-bar-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  #nav-list.responsive li {
+    float: none;
+    display: inline;
+  }
+  #nav-list.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
