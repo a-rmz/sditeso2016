@@ -37,11 +37,17 @@
 		</div>
 		
 	<div id="site">
-		<h1>A</h1>
-		<h1>B</h1>
-		<h1>C</h1>
-		<h1>D</h1>
-		<h1>E</h1>
+		<h1 style="font-size: 3em;">Welcome</h1>
+		<h2>to my humble home</h2>
+		
+		<p>I've got some material right now. :D</p>
+		
+		<script> function toggleNewMaterial() {$('.new-material-div').fadeToggle(200);} </script>
+		<p><a href="javascript:void(0);" onclick="toggleNewMaterial()">Check it out!</a></p>
+		<div class="new-material-div">
+			<div class="new-material-div" style="cursor: pointer;" onclick="location.href='github-cheatsheet.html'" >Github basic commmands</div>
+			<div class="new-material-div">Running unit tests</div>
+		</div>
 	</div>
 
 	</body>
