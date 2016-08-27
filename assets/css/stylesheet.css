@@ -56,7 +56,7 @@ body {
 }
 
 /* Responsive nav-bar queries */
-@media screen and (max-width:680px) {
+@media screen and (max-width:720px) {
   #nav-list li:not(:first-child) {
 	  display: none;
 	}
@@ -67,7 +67,7 @@ body {
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
-@media screen and (max-width:680px) {
+@media screen and (max-width:720px) {
   #nav-list.responsive {
 	  position: relative;
 	  background-color: #ABABAB;
