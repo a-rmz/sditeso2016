@@ -136,8 +136,18 @@ p {
 	background: white;
 	margin-left: 10%;
 	margin-right: 10%;
-	padding: 35px;
+	padding: 3%;
 	
+}
+
+/* Resize the entry border for smaller screens */
+@media screen and (max-width:680px) {
+	.entry {
+		background: white;
+		margin-left: 4%;
+		margin-right: 4%;
+		padding: 3%;
+	}
 }
 
 body > .entry ~ .entry {
@@ -159,4 +169,9 @@ alt {
 
 h3 {
 	font-weight: 400;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
 }
