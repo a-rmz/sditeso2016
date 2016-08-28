@@ -15,33 +15,31 @@
 	</head>
 	
 	<body>
+		<div id="nav-bar">
 		<script>
 			function toggleNavBar() {
 				var x = document.getElementById("nav-list");
-				if (x.className === "topnav") {
-					x.className += " responsive";
+				if (x.className === "non-responsive") {
+					x.className += "responsive";
 				} else {
 					x.className = "topnav";
 				}
 			}
 		</script>
-		<div id="nav-bar">
-			<ul class="topnav" id="nav-list">
+			<ul class="non-responsive" id="nav-list">
 				<li id="nav-bar-home" style="float: left; "><a style="font-weight: 400; font-size: 1.15em;">SD Fundamentals</a></li>
-				<li id="nav-bar-icon">
-					<a href="javascript:void(0);" onclick="toggleNavBar()">&#9776;</a>
-				</li>
+				<li id="nav-bar-icon"><a href="javascript:void(0);" onclick="toggleNavBar()">&#9776;</a></li>
 				<li><a href="">Excercies</a></li>
 				<li><a href="">Resources</a></li>
 				<li><a href="">About</a></li>
 			</ul>
 		</div>
 		
-	<div id="site" style="text-align: center;">
-		<h1 style="font-size: 3em; text-align: center;">Welcome</h1>
-		<h2 style="text-align: center;">to my humble home</h2>
+	<div class="entry" style="text-align: center;">
+		<h1 style="font-size: 3em; text-align: center;">Bienvenidos</h1>
+		<h2 style="text-align: center;">a mi humilde morada</h2>
 		
-		<p style="text-align: center;">I've got some material right now. :D</p>
+		<p style="text-align: center;">Tengo algo de material nuevo para ti. :D</p>
 		
 		<br/><br/><br/>
 		<script> function toggleNewMaterial() {$('.new-material-div').fadeToggle(200);} </script>
@@ -49,7 +47,7 @@
 		<br/><br/><br/>
 		<div class="new-material-div">
 			<div class="new-material-div" style="cursor: pointer;" onclick="location.href='github-cheatsheet.html'" >Github basic commmands</div>
-			<div class="new-material-div">Running unit tests</div>
+			<div class="new-material-div" style="cursor: pointer;">Running unit tests</div>
 		</div>
 	</div>
 

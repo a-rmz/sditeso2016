@@ -52,41 +52,48 @@ body {
 	background-color: rgb( 40, 44, 47 );
 }
 
-#nav-list-icon {
+#nav-bar-icon {
 	display: none;
 }
 
 /* Responsive nav-bar queries */
-@media screen and (max-width: 540px) {
-  #nav-list li:not(:first-child) {
-	  display: none;
+@media screen and (max-width: 680px) {
+	#nav-list li:not(#nav-bar-home) {
+		display: none;
 	}
-  #nav-list-icon {
-    float: right;
-    display: inline-block;
-  }
+	
+	
+	#nav-list li:nth-child(2) {
+		display: inline-block;
+		float: right;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
-@media screen and (max-width: 540px) {
-  #nav-list.responsive {
-	  position: relative;
-	  background-color: #ABABAB;
+@media screen and (max-width: 680px) {
+	#nav-list.responsive {
+		position: relative;
+		background-color: #ABABAB;
 	}
-  #nav-bar-icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  #nav-list.responsive li {
-    float: none;
-    display: inline;
-  }
-  #nav-list.responsive li a {
-    display: block;
-    text-align: left;
-  }
+	#nav-bar-icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	#nav-list.responsive li {
+		float: none;
+		display: inline;
+	}
+	#nav-list.responsive li a {
+		display: block;
+		text-align: left;
+	}
 }
+
+
 h1 {
 	font-weight: 100;
 }
@@ -103,14 +110,11 @@ p {
 .new-material-div {
 	display: inline-block;
 	padding: 15px;
+	margin: 5px;
 	border-radius: 7px;
 	background: rgba(0, 0, 0, 0.5);
 	color: #f3f3f3;
 	font-family: 'Source Code Pro';
-	
-	-webkit-box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, .8);
-    -moz-box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, .8);
-    box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, .8);
 	
 	-webkit-transition: background 0.2s;
 	-moz-transition: background 0.2s;
@@ -128,12 +132,16 @@ p {
 	cursor: pointer;
 }
 
-#site {
+.entry {
 	background: white;
 	margin-left: 10%;
 	margin-right: 10%;
 	padding: 35px;
 	
+}
+
+body > .entry ~ .entry {
+	margin-top: 2%;
 }
 
 code {
