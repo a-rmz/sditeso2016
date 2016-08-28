@@ -125,3 +125,16 @@ p {
 	background: #FF821C;
 	cursor: pointer;
 }
+
+#site {
+	padding: 15px;
+}
+
+code {
+	font-family: 'Source Code Pro';
+	padding: 4px;
+	margin: 2px;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	background: #f3f3f3;
+}

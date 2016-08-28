@@ -4,7 +4,12 @@ body {
 }
 
 #site {
-	margin: 15px;
+	visibility: visible;
+	display: block;
+	
+	padding: 15px;
+	border: 5px solid red;
+	background: green;
 }
 
 #nav-bar {
