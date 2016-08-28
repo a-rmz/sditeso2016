@@ -17,22 +17,19 @@
 	
 	<body>
 		<div id="nav-bar">
-		<script>
-			function toggleNavBar() {
-				var x = document.getElementById("nav-list");
-				if (x.className === "non-responsive") {
-					x.className += "responsive";
-				} else {
-					x.className = "topnav";
-				}
-			}
-		</script>
-			<ul class="non-responsive" id="nav-list">
-				<li id="nav-bar-home" style="float: left; "><a style="font-weight: 400; font-size: 1.15em;">SD Fundamentals</a></li>
+		<script>function toggleNavBar() {$('#topnav').toggleClass("responsive");}</script>
+			<ul id="topnav" class="nav-list">
+				<li id="nav-bar-home" style="float: left;"><a href="javascript:void(0);" onclick="toggleNavBar()" style="font-weight: 400; font-size: 1.15em;">SD Fundamentals</a></li>
 				<li id="nav-bar-icon"><a href="javascript:void(0);" onclick="toggleNavBar()">&#9776;</a></li>
+				<li><a href="about.html">About</a></li>
 				<li><a href="">Excercies</a></li>
-				<li><a href="">Resources</a></li>
-				<li><a href="">About</a></li>
+				<script>function toggleResources(){$('#dropdown-resources').fadeToggle(300)};</script>
+				<li class="dropdown"><a href="javascript:void(0);" onclick="toggleResources()">Resources</a>
+					<ul id="dropdown-resources">
+						<li><a href="">Github cheatsheet</a></li>
+						<li><a href="">Running UTs</a></li>
+					</ul>
+				</li>
 			</ul>
 		</div>
 		
@@ -50,6 +47,11 @@
 			<div class="new-material-div" style="cursor: pointer;" onclick="location.href='github-cheatsheet.html'" >Github basic commmands</div>
 			<div class="new-material-div" style="cursor: pointer;" onclick="location.href='running-ut.html'">Running unit tests</div>
 		</div>
+	</div>
+		
+	<div class="entry">
+		<h1 style="margin-top:0;">About</h1>
+		<p>Creé esta página para que fuera un apoyo en el curso de Diseño de Software... <a href="about.html">Leer más</a></p>	
 	</div>
 
 	</body>
