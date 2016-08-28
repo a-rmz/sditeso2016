@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="a-rmz">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>SDF 2016: Running UTs</title>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet"/> 
+		<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400" rel="stylesheet"> 
+		<link href="assets/css/stylesheet.css" rel="stylesheet" type="text/css"/>
+		<script src="assets/js/script.js"></script>
+	</head>
+	
+	<body>
+		
+		<div id="nav-bar">
+		<script>
+			function toggleNavBar() {
+				var x = document.getElementById("nav-list");
+				if (x.className === "topnav") {
+					x.className += " responsive";
+				} else {
+					x.className = "topnav";
+				}
+			}
+		</script>
+			<ul class="topnav" id="nav-list">
+				<li id="nav-bar-home" style="float: left; "><a href="index.html" style="font-weight: 400; font-size: 1.15em;">SD Fundamentals</a></li>
+				<li id="nav-bar-icon">
+					<a href="javascript:void(0);" onclick="toggleNavBar()">&#9776;</a>
+				</li>
+				<li><a href="">Excercies</a></li>
+				<li><a href="">Resources</a></li>
+				<li><a href="">About</a></li>
+			</ul>
+		</div>
+		
+	<div class="entry">
+			
+		<h1>Running Unit Tests</h1>
+		<br/>
+		<h3>1. Preparar la clase</h3>
+		<p>Hay que crear el método de configuración para la clase de prueba.</p>
+		<br/>
+		<script src="https://gist.github.com/a-rmz/37af2b111c08459aff1a927bbe1fe46e.js"></script>
+		<p>El tag <code>@Before</code> indica que ese método debe realizarse previo a las pruebas; en este caso, para realizar la configuración.</p>
+		<br/>
+		<br/>
+		<h3>2. Crear el caso de prueba</h3>
+		<p>Para indicar que es un test case, hay que incluir el tag <code>@Test</code>.</p>
+		<br/>
+		<script src="https://gist.github.com/a-rmz/c109a788543de053d44eeec470f1a8e0.js"></script>
+		<p>El método <code>Assert.assertEquals()</code> comapra el resultado obtenido por el método a probar contra el resultado esperado para ese caso.</p>
+		<br/>
+		<br/>
+		<h3>3. Correr el Unit Test</h3>
+		<p>Para correr un test individual, hay que hacer click derecho sobre el nombre del método, y luego, seleccionar 'Run nombreMetodo()'.</p>
+		<br/>
+		<img src="assets/res/rut/rut-1.png" title="Menú desplegado al hacer click derecho"/>
+		<br/>
+		<br/>
+		<h3>3.1 Correr todos los Unit Tests</h3>
+		<p>Para correr todos los tests, hay que hacer el proceso anterior, pero haciendo click derecho sobre el nombre de la clase de prueba.</p>
+		<br/>
+		<br/>
+		<h3>4. Verificar los resultados</h3>
+		<p>Una vez que el IDE hizo el build y corrió la(s) prueba(s), hay que revisar que el resultado sea el esperado.</p>
+		<br/>
+		<img src="assets/res/rut/rut-success.png" title="Prueba exitosa"/>
+		<br/>
+		<br/>
+		<br/>
+		<p>En caso de que hubiera algún error al realizar la prueba, el IDE avisará cuál fue el error.</p>
+		<br/>
+		<img src="assets/res/rut/rut-fail.png" title="Prueba con un errores">
+		<br/>
+		<br/>
+		<br/>
+		<p style="text-align: center; font-size:1.8em;">¡Listo! Corriste tu primera Unit test.</p>
+		<br/>
+		<br/>
+		<br/>
+		<p style="text-align: center;">¿Sigues con dudas? Te presto mi código fuente.</p>
+		<br/>
+		<div style="text-align: center;">
+			<div class="button" style="display:inline-block;" onclick="location.href='https://github.com/a-rmz/ut-practice'">Ir a mi repositorio de Git</div>
+		</div>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<p style="text-align: center; font-weight: 100;">Nota: El contenido presentado es propiedad de su autor y queda estrictamente prohibido su reproducción parcial o total. El contenido compartido es únicamente con propósitos educativos.</p>
+		
+	</div>
+				
+	</body>
+	
+</html>
