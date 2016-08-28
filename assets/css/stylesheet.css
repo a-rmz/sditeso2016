@@ -114,7 +114,7 @@ p {
 	border-radius: 7px;
 	background: rgba(0, 0, 0, 0.5);
 	color: #f3f3f3;
-	font-family: 'Source Code Pro';
+	font-family: 'Roboto Mono';
 	
 	-webkit-transition: background 0.2s;
 	-moz-transition: background 0.2s;
@@ -155,8 +155,9 @@ body > .entry ~ .entry {
 }
 
 code {
-	font-family: 'Source Code Pro';
-	padding: 4px;
+	font-family: 'Roboto Mono';
+	font-size: 0.9em;
+	padding: 0.2%;
 	margin: 3px;
 	border: 1px solid #cccccc;
 	border-radius: 3px;
