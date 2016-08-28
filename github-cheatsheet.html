@@ -28,7 +28,7 @@
 		</script>
 		<div id="nav-bar">
 			<ul class="topnav" id="nav-list">
-				<li id="nav-bar-home" style="float: left; "><a style="font-weight: 400; font-size: 1.15em;">SD Fundamentals</a></li>
+				<li id="nav-bar-home" style="float: left; "><a href="index.html" style="font-weight: 400; font-size: 1.15em;">SD Fundamentals</a></li>
 				<li id="nav-bar-icon">
 					<a href="javascript:void(0);" onclick="toggleNavBar()">&#9776;</a>
 				</li>
@@ -42,17 +42,20 @@
 			
 		<h1>Github Shell cheatsheet</h1>
 		<br/>
+		<h3>Add</h3>
 		<p> <code>git add -A</code>-> añade al commit actual todos los archivos que se modificaron desde el último commit.</p>
-		<br/><br/><p>[Alternativa]</p><br/>
+		<br/><p><alt>[Alternativa]</alt></p><br/>
 		<p><code>git add /path/to/file</code> -> añade SÓLO el archivo que indicas.</p>
 		<br/>
+		<br/>
+		<h3>Commit</h3>
 		<p><code>git commit -a -m "Comentario breve de los cambios"</code> -> la opción <code>-a</code> indica que se le aplica el commit a todos los archivos en el add.</p>
-		<br/><p>[Alternativa]</p>
+		<br/><p><alt>[Alternativa]</alt></p>
+		<p>Se puede usar <code>/path/to/file</code> para indicar sólo un archivo.
+		<br/><br/>La bandera <code>-m</code> indica que se mueve a un commit nuevo (En caso de que hubiera uno antes y no se hubiera hecho <code>push</code>). Por último, el comentario es una breve descripción de los cambios hechos en ese commit.</p>
 		<br/>
 		<br/>
-		<p>Se puede usar <code>/path/to/file</code> para indicar sólo un archivo. La bandera <code>-m</code> indica que se mueve a un commit nuevo (En caso de que hubiera uno antes y no se hubiera hecho <code>push</code>). Por último, el comentario es una breve descripción de los cambios hechos en ese commit.</p>
-		<br/>
-		<br/>
+		<h3>Push</h3>
 		<p><code>git push</code> sube todos los commits almacenados localmente al repo.</p>
 		
 	</div>

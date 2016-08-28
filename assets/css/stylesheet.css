@@ -96,6 +96,7 @@ h2 {
 
 p {
 	font-weight: 300;
+	margin: 0px;
 }
 
 .new-material-div {
@@ -127,7 +128,7 @@ p {
 }
 
 #site {
-	padding: 15px;
+	padding: 35px;
 }
 
 code {
@@ -137,4 +138,12 @@ code {
 	border: 1px solid #cccccc;
 	border-radius: 3px;
 	background: #f3f3f3;
+}
+
+alt {
+	font-weight: 100;
+}
+
+h3 {
+	font-weight: 400;
 }
