@@ -65,7 +65,7 @@ ul.nav-list li a:hover {
 @media screen and (max-width: 680px) {
 	
 	ul.nav-list li:not(#nav-bar-icon) {
-		visibility: hidden;
+		display: none;
 	}
 	
 	#nav-bar-icon {
