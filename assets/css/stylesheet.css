@@ -64,7 +64,7 @@ ul.nav-list li a:hover {
 /* Responsive nav-bar queries */
 @media screen and (max-width: 680px) {
 	
-	ul.nav-list li:not(#nav-bar-icon) {
+	ul.nav-list li:not(#nav-bar-home) {
 		display: none;
 	}
 	
