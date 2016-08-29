@@ -178,3 +178,9 @@ img {
 	height: auto;
 }
 
+
+#github {
+	width: 20%;
+	display: inline-block;
+	float: right;
+}
