@@ -72,6 +72,9 @@ ul.nav-list li a:hover {
 	ul.nav-list li:not(#nav-bar-home) {
 		display: none;
 	}
+	.dropdown ul li {
+		background: #C4C2C2;
+	}
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
