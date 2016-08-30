@@ -64,13 +64,13 @@ ul.nav-list li a:hover {
 /* Responsive nav-bar queries */
 @media screen and (max-width: 680px) {
 	
-	ul.nav-list li:not(#nav-bar-home) {
-		display: none;
+	#nav-bar-icon {
+		display: inline-block !important;
+		float: right;
 	}
 	
-	#nav-bar-icon {
-		display: inline-block;
-		float: right;
+	ul.nav-list li:not(#nav-bar-home) {
+		display: none;
 	}
 }
 
@@ -79,16 +79,19 @@ ul.nav-list li a:hover {
 	ul.nav-list.responsive {
 		position: relative;
 	}
+	ul.nav-list.responsive #nav-bar-home {
+		display: block;
+	}
 	ul.nav-list.responsive #nav-bar-icon {
 		position: absolute;
 		right: 0;
 		top: 0;
 	}
 	ul.nav-list.responsive li {
+		display: block !important;
 		float: none;
 	}
 	ul.nav-list.responsive li a {
-		display: block;
 		text-align: left;
 		visibility: visible;
 	}
