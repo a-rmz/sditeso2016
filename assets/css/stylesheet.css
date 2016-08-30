@@ -80,7 +80,7 @@ ul.nav-list li a:hover {
 		position: relative;
 	}
 	ul.nav-list.responsive #nav-bar-home {
-		display: block;
+		float: none !important;
 	}
 	ul.nav-list.responsive #nav-bar-icon {
 		position: absolute;
