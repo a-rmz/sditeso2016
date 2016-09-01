@@ -144,7 +144,7 @@ p {
 	margin-left: 10%;
 	margin-right: 10%;
 	padding: 3%;
-	
+	display: block;
 }
 
 /* Resize the entry border for smaller screens */
@@ -200,4 +200,23 @@ td {
 	font-family: 'Roboto Mono';
 	font-weight: 100;
 	padding: 0.2%;
+}
+
+#side-bar {
+	display: inline-block;
+	float: right;
+	background: brown;
+}
+
+ol {
+	font-weight: 300;
+}
+
+ol li a {
+	text-decoration: none;
+	color: brown;
+}
+
+ol li {
+	margin-top: 1%;
 }
