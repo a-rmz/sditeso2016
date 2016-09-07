@@ -30,6 +30,9 @@ public class TacitKnowledgePrinter {
     }
 
     public String calculate(int number) {
+        if(number == 0) {
+            throw new RuntimeException("Zero is not a valid number");
+        }
         if (isDivisibleBy(number, THREE) && isDivisibleBy(number, FIVE)) {
             return "TacitKnowledge";
         }

@@ -48,7 +48,7 @@ public class TacitKnowledgePrinterTest {
         );
     }
 
-    @Test (expected = RuntimeException.class)
+    @Test
     public void printStringsThreeTest() {
         Assert.assertEquals(
                 tkp.calculate(3),
@@ -79,6 +79,49 @@ public class TacitKnowledgePrinterTest {
                 "12Tacit4KnowledgeTacit78TacitKnowledge11Tacit1314TacitKnowledge"
         );
     }
+
+    @Test (expected = RuntimeException.class)
+    public void zeroIsDivisibleTest() {
+        Assert.assertEquals(
+                tkp.calculate(0),
+                "0"
+        );
+    }
+
+    @Test
+    public void calculateNegativeThree() {
+        Assert.assertEquals(
+                tkp.calculate(-3),
+                "Tacit"
+        );
+    }
+
+    @Test
+    public void calculateNegativeFive() {
+        Assert.assertEquals(
+                tkp.calculate(-5),
+                "Knowledge"
+        );
+    }
+
+    @Test
+    public void calculateNegativeThreeFive() {
+        Assert.assertEquals(
+                tkp.calculate(-15),
+                "TacitKnowledge"
+        );
+    }
+
+    @Test
+    public void calculateAnyNegative() {
+        Assert.assertEquals(
+                tkp.calculate(-7),
+                "-7"
+        );
+    }
+
+
+
 
 
 
