@@ -15,5 +15,4 @@ public class AmericanFootballBallTest {
         assertEquals("American Football ball is rolling!", americanFootballBall.roll());
     }
 
-
 }
