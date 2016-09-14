@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d01b1fd-6480-4bf7-b36c-ffb80dc46c93" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/balls/BowlingBall.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/JamaiconSportsBallMain.java" afterPath="$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/JamaiconSportsBallMain.java" />
     </list>
     <ignored path="sditeso2016.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JamaiconSportsBallMain.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JamaiconSportsBallMain.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/JamaiconSportsBallMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-198">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="234">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SoccerBall.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/balls/SoccerBall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -87,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PoolBall.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PoolBall.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/balls/PoolBall.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            <state relative-caret-position="198">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,9 +135,10 @@
         <option value="$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/behaviors/impl/NotDeformable.java" />
         <option value="$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/balls/PoolBall.java" />
         <option value="$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/balls/BaseballBall.java" />
-        <option value="$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/balls/SoccerBall.java" />
         <option value="$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/balls/VolleyBall.java" />
         <option value="$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/balls/BowlingBall.java" />
+        <option value="$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/balls/SoccerBall.java" />
+        <option value="$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/JamaiconSportsBallMain.java" />
       </list>
     </option>
   </component>
@@ -857,29 +869,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/balls/SoccerBall.java">
+    <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/balls/TennisBall.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/JamaiconSportsBallMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/balls/BowlingBall.java">
+    <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/balls/PoolBall.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/balls/SoccerBall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -909,21 +921,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/balls/TennisBall.java">
+    <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/balls/BowlingBall.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/balls/PoolBall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="198">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/JamaiconSportsBallMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
