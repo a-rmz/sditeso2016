@@ -32,4 +32,16 @@ public abstract class Ball {
 
     public String performDeform() { return deformBehaviour.deform(); }
 
+    public void setBounceBehavior(BounceBehavior bounceBehavior) {
+        this.bounceBehavior = bounceBehavior;
+    }
+
+    public void setDeflateBehavior(DeflateBehavior deflateBehavior) {
+        this.deflateBehavior = deflateBehavior;
+    }
+
+    public void setDeformBehaviour(DeformBehaviour deformBehaviour) {
+        this.deformBehaviour = deformBehaviour;
+    }
+
 }
