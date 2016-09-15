@@ -7,7 +7,7 @@ import mx.iteso.strategy.behaviors.impl.Flotate;
 public class SwimRing extends Lifesaver{
     public SwimRing() {
         deflateBehavior = new Deflatable();
-        floatationBehavior = new Flotate();
+        flotationBehavior = new Flotate();
         type = "Swim ring";
     }
 }

@@ -7,7 +7,7 @@ import mx.iteso.strategy.behaviors.impl.NotDeflatable;
 public class SwimSeat extends Lifesaver {
     public SwimSeat() {
         deflateBehavior = new NotDeflatable();
-        floatationBehavior = new Flotate();
+        flotationBehavior = new Flotate();
         type = "Swim seat";
     }
 }

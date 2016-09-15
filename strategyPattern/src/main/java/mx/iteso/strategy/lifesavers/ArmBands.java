@@ -8,7 +8,7 @@ public class ArmBands extends Lifesaver{
 
     public ArmBands() {
         deflateBehavior = new Deflatable();
-        floatationBehavior = new Flotate();
+        flotationBehavior = new Flotate();
         type = "Arm bands";
     }
 }
