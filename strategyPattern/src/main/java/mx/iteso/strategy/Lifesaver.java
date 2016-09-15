@@ -20,7 +20,7 @@ public abstract class Lifesaver {
         return deflateBehavior.inflate();
     }
 
-    public String performDeflate_() {
+    public String performDeflate() {
         return deflateBehavior.deflate();
     }
 
