@@ -8,7 +8,7 @@ public class JamaiconSportsLifesaversMain {
             Lifesaver swimRing = new SwimRing();
             Lifesaver swimSeat = new SwimSeat();
             Lifesaver armBands = new ArmBands();
-            Lifesaver foamFloats = new FoamFloats();
+            Lifesaver foamFloats = new FoamFloat();
             Lifesaver lifeVest = new LifeVest();
 
             System.out.println(swimRing.display());
