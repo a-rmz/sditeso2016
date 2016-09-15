@@ -7,10 +7,10 @@ import mx.iteso.strategy.behaviors.impl.NotDeflatable;
 /**
  * Created by a-rmz on 9/15/16.
  */
-public class FoamFloats extends Lifesaver {
-    public FoamFloats() {
+public class WaterTube extends Lifesaver {
+    public WaterTube() {
         deflateBehavior = new NotDeflatable();
         flotationBehavior = new Flotate();
-        type = "Foam floats";
+        type = "Water tube";
     }
 }
