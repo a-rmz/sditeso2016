@@ -16,25 +16,25 @@ public abstract class Lifesaver {
             return type;
         }
 
-        public String performInflate() {
-            return deflateBehavior.inflate();
-        }
+    public String performInflate() {
+        return deflateBehavior.inflate();
+    }
 
-        public String performDeflate_() {
-            return deflateBehavior.deflate();
-        }
+    public String performDeflate_() {
+        return deflateBehavior.deflate();
+    }
 
-        public String performFloat() {
-            return flotationBehavior.flotate();
-        }
+    public String performFloat() {
+        return flotationBehavior.flotate();
+    }
 
-        public void setDeflateBehavior(DeflateBehavior deflateBehavior) {
-            this.deflateBehavior = deflateBehavior;
-        }
+    public void setDeflateBehavior(DeflateBehavior deflateBehavior) {
+        this.deflateBehavior = deflateBehavior;
+    }
 
-        public void setFloatingBehavior(FlotationBehavior flotationBehavior) {
-            this.flotationBehavior = flotationBehavior;
-        }
+    public void setFloatingBehavior(FlotationBehavior flotationBehavior) {
+        this.flotationBehavior = flotationBehavior;
+    }
 
 
 }
