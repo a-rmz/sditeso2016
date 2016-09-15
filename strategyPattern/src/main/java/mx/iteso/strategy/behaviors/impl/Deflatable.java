@@ -4,10 +4,10 @@ import mx.iteso.strategy.behaviors.DeflateBehavior;
 
 public class Deflatable implements DeflateBehavior {
     public String deflate() {
-        return "I'm deflating!";
+        return DEFLATE;
     }
 
     public String inflate() {
-        return "I'm inflating!";
+        return INFLATE;
     }
 }
