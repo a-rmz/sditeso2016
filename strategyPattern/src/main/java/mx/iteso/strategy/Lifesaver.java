@@ -1,17 +1,17 @@
 package mx.iteso.strategy;
 
-public class Lifesaver {
+import mx.iteso.strategy.behaviors.BounceBehavior;
+import mx.iteso.strategy.behaviors.DeflateBehavior;
+import mx.iteso.strategy.behaviors.DeformBehaviour;
+
+public abstract class Lifesaver {
+
+    public DeflateBehavior deflateBehavior;
+    public FloatationBehavior floatationBehavior;
     public String type;
-    public String inflating() {
-        return "I'm inflating";
-    }
-    public String deflating() {
-        return "I'm deflating";
-    }
-    public String floating() {
-        return "I'm floating";
-    }
-    public String display() {
-        return "I'm a " + type;
+
+    public Lifesaver() {
+
+
     }
 }
