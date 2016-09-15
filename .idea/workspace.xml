@@ -33,16 +33,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArmBands.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/lifesavers/ArmBands.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SwimRing.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/lifesavers/SwimRing.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -78,8 +68,18 @@
       <file leaf-file-name="Ball.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/Ball.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
+            <state relative-caret-position="337">
               <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeflateBehavior.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/behaviors/DeflateBehavior.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -88,9 +88,19 @@
       <file leaf-file-name="Lifesaver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/Lifesaver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-              <folding />
+            <state relative-caret-position="175">
+              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
+                <element signature="e#690#691#0" expanded="true" />
+                <element signature="e#752#753#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1050,7 +1060,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/Ball.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
+        <state relative-caret-position="337">
           <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
           <folding />
         </state>
@@ -1058,9 +1068,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/Lifesaver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="175">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
