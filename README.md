@@ -7,3 +7,6 @@ Contents of this repo:
 * [Foo / Bar tests](https://github.com/a-rmz/sditeso2016/tree/master/mockitoExercise)
     * Alejandro Ramírez Pérez
     * J. Fernando Villanueva Sánchez
+* [Strategy Pattern](https://github.com/a-rmz/sditeso2016/tree/master/strategyPattern)
+    * Alejandro Ramírez Pérez
+    * J. Fernando Villanueva Sánchez
