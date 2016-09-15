@@ -11,6 +11,8 @@ public class ArmBandsTest {
     @Test
     public void testArmBands() {
         ArmBands armBands = new ArmBands();
-        Assert.assertEquals("", armBands.performDeflate_());
+        Assert.assertEquals("I'm deflating!", armBands.performDeflate());
+        Assert.assertEquals("I'm inflating!", armBands.performInflate());
+        Assert.assertEquals("I'm floating!", armBands.performFloat());
     }
 }
