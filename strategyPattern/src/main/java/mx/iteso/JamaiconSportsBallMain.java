@@ -10,7 +10,7 @@ public class JamaiconSportsBallMain {
         Ball american = new AmericanFootballBall();
         Ball tennis = new TennisBall();
         Ball bowling = new BowlingBall();
-        Ball volley = new VolleyBall();
+        Ball volley = new VolleyballBall();
         Ball golf =new GolfBall();
         Ball pool = new PoolBall();
 

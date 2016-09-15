@@ -12,7 +12,7 @@ public class PoolBall extends Ball{
         bounceBehavior = new IrregularBounce();
         deflateBehavior = new NotDeflatable();
         deformBehaviour = new NotDeformable();
-        type = "Pool Ball";
+        type = "Pool ball";
     }
 
 

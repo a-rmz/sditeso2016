@@ -8,8 +8,8 @@ import mx.iteso.strategy.behaviors.impl.NormalBounce;
 /**
  * Created by a-rmz on 9/14/16.
  */
-public class VolleyBall extends Ball {
-    public VolleyBall() {
+public class VolleyballBall extends Ball {
+    public VolleyballBall() {
         bounceBehavior = new NormalBounce();
         deflateBehavior = new Deflatable();
         deformBehaviour = new Deformable();
