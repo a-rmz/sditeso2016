@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d01b1fd-6480-4bf7-b36c-ffb80dc46c93" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/JamaiconSportsLifesaversMain.java" afterPath="$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/JamaiconSportsLifesaversMain.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/Lifesaver.java" afterPath="$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/Lifesaver.java" />
     </list>
     <ignored path="sditeso2016.iws" />
@@ -23,31 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JamaiconSportsLifesaversMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/JamaiconSportsLifesaversMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SwimRing.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/lifesavers/SwimRing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SwimSeat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/lifesavers/SwimSeat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="144">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,11 +37,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseballBall.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/balls/BaseballBall.java">
+      <file leaf-file-name="SwimSeat.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/lifesavers/SwimSeat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="10" column="46" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="46" />
+            <state relative-caret-position="162">
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JamaiconSportsLifesaversMain.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/JamaiconSportsLifesaversMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -85,22 +79,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lifesaver.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Lifesaver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/Lifesaver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="121">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
-                <element signature="e#515#516#0" expanded="true" />
-                <element signature="e#556#557#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-                <element signature="e#690#691#0" expanded="true" />
-                <element signature="e#752#753#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#756#757#0" expanded="true" />
+                <element signature="e#818#819#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArmBands.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/lifesavers/ArmBands.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FoamFloats.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/lifesavers/FoamFloats.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LifeVest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/lifesavers/LifeVest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -108,8 +136,8 @@
       <file leaf-file-name="FlotationBehavior.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/behaviors/FlotationBehavior.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="72">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -150,6 +178,7 @@
         <option value="$PROJECT_DIR$/strategyPattern/src/test/java/mx/iteso/strategy/behaviors/impl/NotDeformableTest.java" />
         <option value="$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/lifesavers/SwimSeat.java" />
         <option value="$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/Lifesaver.java" />
+        <option value="$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/JamaiconSportsLifesaversMain.java" />
       </list>
     </option>
   </component>
@@ -430,44 +459,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="behaviors" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sditeso2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sditeso2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="strategyPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iteso" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="strategy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="balls" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1000,40 +991,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/JamaiconSportsLifesaversMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/lifesavers/ArmBands.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/lifesavers/SwimRing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/lifesavers/SwimSeat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/balls/BaseballBall.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -1044,8 +1001,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/behaviors/FlotationBehavior.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="72">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1066,21 +1023,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/Lifesaver.java">
+    <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/lifesavers/ArmBands.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        <state relative-caret-position="108">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/lifesavers/FoamFloats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/lifesavers/LifeVest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/lifesavers/SwimRing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/lifesavers/SwimSeat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/strategy/Lifesaver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategyPattern/src/main/java/mx/iteso/JamaiconSportsLifesaversMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>

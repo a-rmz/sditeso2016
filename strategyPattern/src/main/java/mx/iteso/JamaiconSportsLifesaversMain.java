@@ -1,33 +1,47 @@
 package mx.iteso;
 
 import mx.iteso.strategy.Lifesaver;
-import mx.iteso.strategy.lifesavers.ArmBands;
-import mx.iteso.strategy.lifesavers.SwimRing;
-import mx.iteso.strategy.lifesavers.SwimSeat;
+import mx.iteso.strategy.lifesavers.*;
 
 public class JamaiconSportsLifesaversMain {
         public static void main (String[] args) {
             Lifesaver swimRing = new SwimRing();
             Lifesaver swimSeat = new SwimSeat();
             Lifesaver armBands = new ArmBands();
+            Lifesaver foamFloats = new FoamFloats();
+            Lifesaver lifeVest = new LifeVest();
 
             System.out.println(swimRing.display());
-            System.out.println(swimRing.inflating());
-            System.out.println(swimRing.deflating());
-            System.out.println(swimRing.floating());
+            System.out.println(swimRing.performInflate());
+            System.out.println(swimRing.performDeflate_());
+            System.out.println(swimRing.performFloat());
 
             System.out.println();
 
             System.out.println(swimSeat.display());
-            System.out.println(swimSeat.inflating());
-            System.out.println(swimSeat.deflating());
-            System.out.println(swimSeat.floating());
+            System.out.println(swimSeat.performInflate());
+            System.out.println(swimSeat.performDeflate_());
+            System.out.println(swimSeat.performFloat());
 
             System.out.println();
 
             System.out.println(armBands.display());
-            System.out.println(armBands.inflating());
-            System.out.println(armBands.deflating());
-            System.out.println(armBands.floating());
+            System.out.println(armBands.performInflate());
+            System.out.println(armBands.performDeflate_());
+            System.out.println(armBands.performFloat());
+
+            System.out.println();
+
+            System.out.println(foamFloats.display());
+            System.out.println(foamFloats.performInflate());
+            System.out.println(foamFloats.performDeflate_());
+            System.out.println(foamFloats.performFloat());
+
+            System.out.println();
+
+            System.out.println(lifeVest.display());
+            System.out.println(lifeVest.performInflate());
+            System.out.println(lifeVest.performDeflate_());
+            System.out.println(lifeVest.performFloat());
         }
 }

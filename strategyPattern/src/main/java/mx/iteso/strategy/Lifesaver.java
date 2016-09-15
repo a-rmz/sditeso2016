@@ -12,6 +12,9 @@ public abstract class Lifesaver {
     public Lifesaver() {
     }
 
+        public String display() {
+            return type;
+        }
 
         public String performInflate() {
             return deflateBehavior.inflate();
