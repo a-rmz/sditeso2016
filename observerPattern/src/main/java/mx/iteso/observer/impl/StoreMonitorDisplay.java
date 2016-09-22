@@ -28,6 +28,7 @@ public class StoreMonitorDisplay implements Observer, Displayable {
         for(Scorer scorer : scorers) {
             System.out.println(scorer.getName() + " (" + scorer.getNumber() + ") " + "(" + scorer.getTeam() + ") " + scorer.getPosition());
         }
+        System.out.println("\nSent from the coolest monitor display in town");
     }
 
     public void update(String home, String away, int homeGoals, int awayGoals, ArrayList<Scorer> scorers) {
