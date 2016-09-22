@@ -19,7 +19,6 @@ public class MobileAppDisplay implements Observer, Displayable {
     private Subject scoresData;
     private ArrayList<Scorer> scorers;
 
-
     public void MobileAppDisplay (Subject scoresData) {
         this.scoresData = scoresData;
         this.scoresData.registerObserver(this);
