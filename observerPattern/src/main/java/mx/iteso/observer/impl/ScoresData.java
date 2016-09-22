@@ -1,6 +1,7 @@
 package mx.iteso.observer.impl;
 
 import mx.iteso.observer.Observer;
+import mx.iteso.observer.Scorer;
 import mx.iteso.observer.Subject;
 
 import java.util.ArrayList;
@@ -11,12 +12,8 @@ public class ScoresData implements Subject {
     private int awayGoals;
     private String homeTeam;
     private String awayTeam;
+    private ArrayList<Scorer> scorers;
 
-    // Scorer info
-    private String scorerName;
-    private int scorerNumber;
-    private String scorerPosition;
-    private String scorerTeam;
 
     public ScoresData(){
         observers = new ArrayList<Observer>();
@@ -32,8 +29,7 @@ public class ScoresData implements Subject {
 
     public void notifyObservers() {
         for (Observer observer : observers) {
-            observer.update(this.homeTeam, this.awayTeam, this.homeGoals, this.awayGoals,
-                    this.scorerName, this.scorerNumber, this.scorerPosition, this.scorerTeam);
+            observer.update(this.homeTeam, this.awayTeam, this.homeGoals, this.awayGoals, this.scorers);
         }
     }
 
@@ -41,11 +37,12 @@ public class ScoresData implements Subject {
         notifyObservers();
     }
 
-    public void setScore( String homeTeam, String awayTeam, int homeGoals, int awayGoals){
+    public void setScore( String homeTeam, String awayTeam, int homeGoals, int awayGoals, ArrayList<Scorer> scorers){
         this.homeTeam = homeTeam;
         this.awayTeam =  awayTeam;
         this.homeGoals = homeGoals;
         this.awayGoals = awayGoals;
+        this.scorers = scorers;
         newScore();
     }
 }
