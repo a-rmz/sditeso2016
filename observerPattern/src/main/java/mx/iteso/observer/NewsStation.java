@@ -10,8 +10,8 @@ public class NewsStation {
 
         StoreMonitorDisplay storeMonitorDisplay = new StoreMonitorDisplay(scoresData);
 
-        scoresData.setScore("Tacit Knowledge", "Intel", 8, 1);
-        scoresData.setScore("Chivas", "Queretaro", 2, 1);
-        scoresData.setScore("La Ganga", "Muebles America", 0, 0);
+//        scoresData.setScore("Tacit Knowledge", "Intel", 8, 1);
+//        scoresData.setScore("Chivas", "Queretaro", 2, 1);
+//        scoresData.setScore("La Ganga", "Muebles America", 0, 0);
     }
 }
