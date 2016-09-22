@@ -12,10 +12,10 @@ public class FoamFloatTest {
 
     @Test
     public void testLifeVest() {
-        LifeVest lifeVest = new LifeVest();
-        Assert.assertEquals(DeflateBehavior.CANT_DEFLATE, lifeVest.performDeflate());
-        Assert.assertEquals(DeflateBehavior.CANT_INFLATE, lifeVest.performInflate());
-        Assert.assertEquals(FlotationBehavior.FLOTATE, lifeVest.performFloat());
+        FoamFloat foamFloat = new FoamFloat();
+        Assert.assertEquals(DeflateBehavior.CANT_DEFLATE, foamFloat.performDeflate());
+        Assert.assertEquals(DeflateBehavior.CANT_INFLATE, foamFloat.performInflate());
+        Assert.assertEquals(FlotationBehavior.FLOTATE, foamFloat.performFloat());
     }
 
 }

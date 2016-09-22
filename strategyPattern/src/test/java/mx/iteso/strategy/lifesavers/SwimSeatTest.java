@@ -13,8 +13,8 @@ public class SwimSeatTest {
     @Test
     public void testSwimSeat() {
         SwimSeat swimSeat = new SwimSeat();
-        Assert.assertEquals(DeflateBehavior.DEFLATE, swimSeat.performDeflate());
-        Assert.assertEquals(DeflateBehavior.INFLATE, swimSeat.performInflate());
+        Assert.assertEquals(DeflateBehavior.CANT_DEFLATE, swimSeat.performDeflate());
+        Assert.assertEquals(DeflateBehavior.CANT_INFLATE, swimSeat.performInflate());
         Assert.assertEquals(FlotationBehavior.FLOTATE, swimSeat.performFloat());
     }
 }

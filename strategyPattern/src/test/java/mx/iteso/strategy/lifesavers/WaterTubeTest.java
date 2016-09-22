@@ -13,8 +13,8 @@ public class WaterTubeTest {
     @Test
     public void testWaterTube() {
         WaterTube waterTube = new WaterTube();
-        Assert.assertEquals(DeflateBehavior.DEFLATE, waterTube.performDeflate());
-        Assert.assertEquals(DeflateBehavior.INFLATE, waterTube.performInflate());
+        Assert.assertEquals(DeflateBehavior.CANT_DEFLATE, waterTube.performDeflate());
+        Assert.assertEquals(DeflateBehavior.CANT_INFLATE, waterTube.performInflate());
         Assert.assertEquals(FlotationBehavior.FLOTATE, waterTube.performFloat());
     }
 }
