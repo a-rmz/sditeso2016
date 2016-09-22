@@ -1,7 +1,10 @@
 package mx.iteso.observer.impl;
 
+import mx.iteso.observer.Scorer;
 import org.junit.Before;
 import org.junit.Test;
+
+import java.util.ArrayList;
 
 import static org.mockito.Mockito.mock;
 
@@ -15,12 +18,16 @@ public class MobileAppDisplayTest {
     @Before
     public void setUp() {
         scoresData = mock(ScoresData.class);
-        //mobileAppDisplay = new MobileAppDisplay(scoresData);
+        mobileAppDisplay = new MobileAppDisplay(scoresData);
     }
 
     @Test
     public void testUpdate() {
-        mobileAppDisplay.update("homeTeam", "awayTeam", 1, 0, );
-        //Nothing to assert or verify for now
+        ArrayList<Scorer> scorers = new ArrayList<Scorer>(2);
+        scorers.add(new Scorer("Scorer 1", 10, "Midfielder", "homeTeam"));
+        scorers.add(new Scorer("Scorer 2", 14, "Defense", "homeTeam"));
+
+        mobileAppDisplay.update("homeTeam", "awayTeam", 2, 0, scorers);
+
     }
 }
