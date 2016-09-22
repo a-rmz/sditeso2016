@@ -1,1 +1,5 @@
 ut-practice/*
+
+*/.idea
+*/target
+*/*.iml
