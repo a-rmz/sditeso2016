@@ -12,6 +12,11 @@ public class ScoresData implements Subject {
     private String homeTeam;
     private String awayTeam;
 
+    // Scorer info
+    private String scorerName;
+    private int scorerNumber;
+    private String scorerPosition;
+    private String scorerTeam;
 
     public ScoresData(){
         observers = new ArrayList<Observer>();
@@ -27,7 +32,8 @@ public class ScoresData implements Subject {
 
     public void notifyObservers() {
         for (Observer observer : observers) {
-            observer.update(this.homeTeam, this.awayTeam, this.homeGoals, this.awayGoals);
+            observer.update(this.homeTeam, this.awayTeam, this.homeGoals, this.awayGoals,
+                    this.scorerName, this.scorerNumber, this.scorerPosition, this.scorerTeam);
         }
     }
 
