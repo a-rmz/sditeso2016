@@ -11,12 +11,6 @@ public class StoreMonitorDisplay implements Observer, Displayable {
     private int awayGoals;
     private Subject scoresData;
 
-    // Scorer info
-    private String scorerName;
-    private int scorerNumber;
-    private String scorerPosition;
-    private String scorerTeam;
-
     public StoreMonitorDisplay(Subject scoresData){
         this.scoresData = scoresData;
         this.scoresData.registerObserver(this);
@@ -28,8 +22,7 @@ public class StoreMonitorDisplay implements Observer, Displayable {
                 + awayTeam + " (AWAY) " + awayGoals);
     }
 
-    public void update(String home, String away, int homeGoals, int awayGoals,
-                       String scorerName, int scorerNumber, String scorerPosition, String scorerTeam) {
+    public void update(String home, String away, int homeGoals, int awayGoals) {
         this.homeTeam = home;
         this.awayTeam = away;
         this.homeGoals = homeGoals;
