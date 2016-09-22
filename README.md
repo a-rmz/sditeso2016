@@ -10,3 +10,6 @@ Contents of this repo:
 * [Strategy Pattern](https://github.com/a-rmz/sditeso2016/tree/master/strategyPattern)
     * Alejandro Ramírez Pérez
     * J. Fernando Villanueva Sánchez
+* [Observer Pattern](https://github.com/a-rmz/sditeso2016/tree/master/observerPattern)
+    * Alejandro Ramírez Pérez
+    * J. Fernando Villanueva Sánchez
