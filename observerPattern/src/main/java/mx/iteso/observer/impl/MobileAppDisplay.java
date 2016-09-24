@@ -18,7 +18,7 @@ public class MobileAppDisplay implements Observer, Displayable {
     private int awayGoals;
     private Subject scoresData;
     private ArrayList<Scorer> scorers;
-    
+
 
     public MobileAppDisplay (Subject scoresData) {
         this.scoresData = scoresData;
