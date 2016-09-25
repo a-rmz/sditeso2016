@@ -1,12 +1,13 @@
 package mx.iteso.observer.impl;
 
+import mx.iteso.observer.Observer;
 import mx.iteso.observer.Scorer;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.util.ArrayList;
 
-import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.*;
 
 /**
  * Created by fernando on 22/09/16.
@@ -29,5 +30,10 @@ public class MobileAppDisplayTest {
 
         mobileAppDisplay.update("homeTeam", "awayTeam", 2, 0, scorers);
 
+    }
+
+    @Test
+    public void unknownTest() {
+        verify(scoresData, calls(1)).removeObserver(mobileAppDisplay);
     }
 }
