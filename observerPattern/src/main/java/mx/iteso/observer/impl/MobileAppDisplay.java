@@ -45,7 +45,7 @@ public class MobileAppDisplay implements Observer, Displayable {
         display();
     }
 
-    public void activeNotifications () {
+    public void activateNotifications () {
         scoresData.registerObserver(this);
     }
 

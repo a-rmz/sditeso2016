@@ -32,8 +32,4 @@ public class MobileAppDisplayTest {
 
     }
 
-    @Test
-    public void unknownTest() {
-        verify(scoresData, calls(1)).removeObserver(mobileAppDisplay);
-    }
 }
