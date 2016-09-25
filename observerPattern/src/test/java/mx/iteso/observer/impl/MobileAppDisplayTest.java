@@ -15,21 +15,36 @@ import static org.mockito.Mockito.*;
 public class MobileAppDisplayTest {
     private MobileAppDisplay mobileAppDisplay;
     private ScoresData scoresData;
+    private ArrayList<Scorer> scorers;
 
     @Before
     public void setUp() {
         scoresData = mock(ScoresData.class);
         mobileAppDisplay = new MobileAppDisplay(scoresData);
+
+        scorers = new ArrayList<Scorer>(2);
+        scorers.add(new Scorer("Scorer 1", 10, "Midfielder", "homeTeam"));
+        scorers.add(new Scorer("Scorer 2", 14, "Defense", "homeTeam"));
     }
 
     @Test
     public void testUpdate() {
-        ArrayList<Scorer> scorers = new ArrayList<Scorer>(2);
-        scorers.add(new Scorer("Scorer 1", 10, "Midfielder", "homeTeam"));
-        scorers.add(new Scorer("Scorer 2", 14, "Defense", "homeTeam"));
-
         mobileAppDisplay.update("homeTeam", "awayTeam", 2, 0, scorers);
-
     }
+
+    @Test
+    public void testStopNotifications() {
+        mobileAppDisplay.deactiveNotifications();
+        verify(scoresData, times(1)).removeObserver(mobileAppDisplay);
+    }
+
+    @Test
+    public void testSubscribeNotifications() {
+        // First de-subscribe so you can subscribe again
+        mobileAppDisplay.deactiveNotifications();
+        mobileAppDisplay.activateNotifications();
+        verify(scoresData, times(1)).removeObserver(mobileAppDisplay);
+    }
+
 
 }

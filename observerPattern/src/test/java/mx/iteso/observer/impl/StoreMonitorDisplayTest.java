@@ -7,9 +7,7 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
-import static org.mockito.Mockito.calls;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.*;
 
 public class StoreMonitorDisplayTest {
     private StoreMonitorDisplay storeMonitorDisplay;
