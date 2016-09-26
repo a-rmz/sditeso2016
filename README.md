@@ -13,3 +13,6 @@ Contents of this repo:
 * [Observer Pattern](https://github.com/a-rmz/sditeso2016/tree/master/observerPattern)
     * Alejandro Ramírez Pérez
     * J. Fernando Villanueva Sánchez
+* [Decorator Pattern](https://github.com/a-rmz/sditeso2016/tree/master/decoratorPattern)
+    * Alejandro Ramírez Pérez
+    * J. Fernando Villanueva Sánchez
