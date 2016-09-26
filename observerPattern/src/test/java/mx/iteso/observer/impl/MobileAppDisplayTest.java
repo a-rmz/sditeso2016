@@ -1,5 +1,6 @@
 package mx.iteso.observer.impl;
 
+import mx.iteso.observer.Observer;
 import mx.iteso.observer.Scorer;
 import org.junit.Before;
 import org.junit.Test;
@@ -7,6 +8,8 @@ import org.junit.Test;
 import java.util.ArrayList;
 
 import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
 
 /**
  * Created by fernando on 22/09/16.
@@ -28,6 +31,16 @@ public class MobileAppDisplayTest {
         scorers.add(new Scorer("Scorer 2", 14, "Defense", "homeTeam"));
 
         mobileAppDisplay.update("homeTeam", "awayTeam", 2, 0, scorers);
+
+    }
+
+    @Test
+    public void testActiveNotifications(){
+
+    }
+
+    @Test
+    public void testDeactvieNotifications(){
 
     }
 }

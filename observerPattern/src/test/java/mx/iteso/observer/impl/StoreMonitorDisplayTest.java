@@ -7,6 +7,9 @@ import org.junit.Test;
 import java.util.ArrayList;
 
 import static org.mockito.Mockito.mock;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class StoreMonitorDisplayTest {
     private StoreMonitorDisplay storeMonitorDisplay;
@@ -25,7 +28,5 @@ public class StoreMonitorDisplayTest {
         scorers.add(new Scorer("Scorer 2", 14, "Defense", "homeTeam"));
 
         storeMonitorDisplay.update("homeTeam", "awayTeam", 2, 0, scorers);
-
-
     }
 }
