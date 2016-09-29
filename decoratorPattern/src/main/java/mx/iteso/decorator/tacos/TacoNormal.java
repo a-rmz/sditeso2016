@@ -13,7 +13,7 @@ public class TacoNormal extends Taco {
     }
 
     @Override
-    public int getSize() {
+    public Size getSize() {
         return this.size;
     }
 

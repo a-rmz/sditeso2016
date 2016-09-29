@@ -23,7 +23,7 @@ public class BistecTest {
     public void testCostRegular(){
         Taco bistec = new Bistec(taco);
         when(taco.cost()).thenReturn(8.0);
-        when(taco.getSize()).thenReturn(Taco.NORMAL);
+        when(taco.getSize()).thenReturn(Taco.Size.NORMAL);
         double cost = bistec.cost();
         assertEquals(8.0, cost,0);
     }
@@ -32,7 +32,7 @@ public class BistecTest {
     public void testCostMini(){
         Taco bistec = new Bistec(taco);
         when(taco.cost()).thenReturn(8.0);
-        when(taco.getSize()).thenReturn(Taco.MINI);
+        when(taco.getSize()).thenReturn(Taco.Size.MINI);
         double cost = bistec.cost();
         assertEquals(6.50, cost, 0);
     }
@@ -41,7 +41,7 @@ public class BistecTest {
     public void testCostMega(){
         Taco bistec = new Bistec(taco);
         when(taco.cost()).thenReturn(8.0);
-        when(taco.getSize()).thenReturn(Taco.MEGA);
+        when(taco.getSize()).thenReturn(Taco.Size.MEGA);
         double cost = bistec.cost();
         assertEquals(10.0, cost, 0);
     }
