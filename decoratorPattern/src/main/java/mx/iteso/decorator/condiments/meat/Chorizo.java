@@ -20,4 +20,9 @@ public class Chorizo extends CondimentsDecorator {
         return 0 + taco.cost();
     }
 
+    @Override
+    public int getSize() {
+        return taco.getSize();
+    }
+
 }

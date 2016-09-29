@@ -11,4 +11,9 @@ public class Quesadilla extends Taco {
     public double cost() {
         return 10.00;
     }
+
+    @Override
+    public int getSize() {
+        return this.size;
+    }
 }
