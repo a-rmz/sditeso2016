@@ -5,8 +5,8 @@ import mx.iteso.decorator.Taco;
 /**
  * Created by fernando on 29/09/16.
  */
-public class Volcanes extends Taco {
-    public Volcanes () {
+public class Volcan extends Taco {
+    public Volcan() {
         description = "Volcan";
         if(size != NORMAL) throw new WrongSizeException();
         this.size = NORMAL;
