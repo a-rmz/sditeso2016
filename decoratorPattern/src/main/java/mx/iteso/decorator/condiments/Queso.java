@@ -19,4 +19,9 @@ public class Queso extends CondimentsDecorator {
     public double cost() {
         return 2.00 + taco.cost();
     }
+
+    @Override
+    public int getSize() {
+        return taco.getSize();
+    }
 }

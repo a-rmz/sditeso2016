@@ -19,4 +19,9 @@ public class Cilantro extends CondimentsDecorator {
     public double cost() {
         return 0 + taco.cost();
     }
+
+    @Override
+    public int getSize() {
+        return taco.getSize();
+    }
 }

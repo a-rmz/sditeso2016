@@ -19,4 +19,9 @@ public class Lengua  extends CondimentsDecorator {
     public double cost() {
         return 2 + taco.cost();
     }
+
+    @Override
+    public int getSize() {
+        return taco.getSize();
+    }
 }
