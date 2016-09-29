@@ -9,7 +9,7 @@ import mx.iteso.decorator.Taco;
 public class Fish extends CondimentsDecorator{
     Taco taco;
 
-    public Fish (Taco taco){
+    public Fish (Taco taco) {
         this.taco = taco;
     }
 
@@ -19,21 +19,16 @@ public class Fish extends CondimentsDecorator{
     }
 
     @Override
-    public double cost() {
-        if (getSize() == MINI) {
+    public double cost() throws WrongSizeException {
+        if (taco.getSize() == Size.MINI) {
             throw new WrongSizeException();
         }
         double size = 4.00;
-        size += (getSize() == MEGA) ? 3.00 : 0.00;
+        size += (getSize() == Size.MEGA) ? 3.00 : 0.00;
         return size + taco.cost();
     }
 
-    @Override
-    public int getSize() {
-        return taco.size;
-    }
-
-    public int getSize() {
+    public Size getSize() {
         return taco.getSize();
     }
 

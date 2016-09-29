@@ -1,17 +1,19 @@
 package mx.iteso.decorator;
 
 public abstract class Taco {
-    public static final int MINI = 0;
-    public static final int NORMAL = 1;
-    public static final int MEGA = 2;
-    public int size;
+
+    public enum Size {
+        MINI, NORMAL, MEGA
+    }
+
+    public Size size;
 
     public String description = "Any Taco";
     public String getDescription(){
         return description;
     }
     public abstract double cost();
-    public abstract int getSize();
+    public abstract Taco.Size getSize();
 
     public static class WrongSizeException extends RuntimeException {
         public WrongSizeException() {

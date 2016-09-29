@@ -3,7 +3,7 @@ package mx.iteso.decorator.tacos;
 import mx.iteso.decorator.Taco;
 
 public class Quesadilla extends Taco {
-    public Quesadilla(int size){
+    public Quesadilla(Taco.Size size){
         description = "Quesadilla";
         this.size = size;
     }
@@ -12,7 +12,7 @@ public class Quesadilla extends Taco {
     public double cost() {return 10.00;}
 
     @Override
-    public int getSize() {
+    public Taco.Size getSize() {
         return this.size;
     }
 

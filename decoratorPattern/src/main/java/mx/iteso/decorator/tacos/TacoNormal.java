@@ -3,7 +3,7 @@ package mx.iteso.decorator.tacos;
 import mx.iteso.decorator.Taco;
 
 public class TacoNormal extends Taco {
-    public TacoNormal(int size){
+    public TacoNormal(Size size){
         description = "Taco normal";
         this.size = size;
     }
@@ -14,7 +14,7 @@ public class TacoNormal extends Taco {
     }
 
     @Override
-    public int getSize() {
+    public Size getSize() {
         return this.size;
     }
 

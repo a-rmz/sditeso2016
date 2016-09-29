@@ -21,7 +21,7 @@ public class TortillaHarina extends CondimentsDecorator {
     }
 
     @Override
-    public int getSize() {
+    public Size getSize() {
         return taco.getSize();
     }
 
