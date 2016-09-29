@@ -20,16 +20,11 @@ public class Shrimp extends CondimentsDecorator{
 
     @Override
     public double cost() {
-        double size = 4.00;
-        switch (getSize()) {
-            case Taco.MINI:
-                size -= 1.50;
-                break;
-            case Taco.MEGA:
-                size += 2.00;
-                break;
-
+        if (getSize() == MINI) {
+            throw new WrongSizeException();
         }
+        double size = 4.00;
+        size += (getSize() == MEGA) ? 3.00 : 0.00;
         return size + taco.cost();
     }
 

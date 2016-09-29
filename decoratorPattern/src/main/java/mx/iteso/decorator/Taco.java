@@ -12,4 +12,10 @@ public abstract class Taco {
     }
     public abstract double cost();
     public abstract int getSize();
+
+    public static class WrongSizeException extends RuntimeException {
+        public WrongSizeException() {
+            super("Wrong size for this type of taco");
+        }
+    }
 }

@@ -8,7 +8,8 @@ import mx.iteso.decorator.Taco;
 public class Volcanes extends Taco {
     public Volcanes (int size) {
         description = "Volcan";
-        this.size = size;
+        if(size != NORMAL) throw new WrongSizeException();
+        this.size = NORMAL;
     }
 
     @Override
