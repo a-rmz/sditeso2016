@@ -19,8 +19,8 @@ public class Shrimp extends CondimentsDecorator{
     }
 
     @Override
-    public double cost() {
-        if (getSize() == MINI) {
+    public double cost() throws WrongSizeException {
+        if (taco.getSize() == MINI) {
             throw new WrongSizeException();
         }
         double size = 4.00;
