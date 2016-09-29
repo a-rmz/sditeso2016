@@ -8,7 +8,6 @@ public class Quesadilla extends Taco {
         this.size = size;
     }
 
-
     @Override
     public double cost() {return 10.00;}
 
@@ -16,4 +15,5 @@ public class Quesadilla extends Taco {
     public int getSize() {
         return this.size;
     }
+
 }

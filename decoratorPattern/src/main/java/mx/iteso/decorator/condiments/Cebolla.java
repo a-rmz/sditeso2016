@@ -16,12 +16,11 @@ public class Cebolla extends CondimentsDecorator {
     }
 
     @Override
-    public double cost() {
-        return 0 + taco.cost();
-    }
+    public double cost() { return 0 + taco.cost();}
 
     @Override
     public int getSize() {
         return taco.getSize();
     }
+
 }

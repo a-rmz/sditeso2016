@@ -24,4 +24,5 @@ public class Pastor extends CondimentsDecorator {
     public int getSize() {
         return taco.getSize();
     }
+
 }

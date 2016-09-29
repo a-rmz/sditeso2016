@@ -22,4 +22,9 @@ public class Fish extends CondimentsDecorator{
     public double cost() {
         return 4 + taco.cost();
     }
+
+    public int getSize() {
+        return taco.getSize();
+    }
+
 }

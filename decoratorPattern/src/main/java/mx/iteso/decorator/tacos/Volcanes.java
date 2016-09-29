@@ -6,9 +6,9 @@ import mx.iteso.decorator.Taco;
  * Created by fernando on 29/09/16.
  */
 public class Volcanes extends Taco {
-    public Volcanes (int size) {
+    public Volcanes () {
         description = "Volcan";
-        this.size = size;
+        this.size = Taco.NORMAL;
     }
 
     @Override
