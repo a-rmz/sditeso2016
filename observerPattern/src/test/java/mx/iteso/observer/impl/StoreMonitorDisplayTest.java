@@ -1,15 +1,20 @@
 package mx.iteso.observer.impl;
 
 import mx.iteso.observer.Scorer;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.util.ArrayList;
 
+<<<<<<< HEAD
 import static org.mockito.Mockito.mock;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+=======
+import static org.mockito.Mockito.*;
+>>>>>>> b5eae95ceada6bdcb59524bdf3f7a4e68b07a79f
 
 public class StoreMonitorDisplayTest {
     private StoreMonitorDisplay storeMonitorDisplay;
@@ -29,4 +34,5 @@ public class StoreMonitorDisplayTest {
 
         storeMonitorDisplay.update("homeTeam", "awayTeam", 2, 0, scorers);
     }
+
 }

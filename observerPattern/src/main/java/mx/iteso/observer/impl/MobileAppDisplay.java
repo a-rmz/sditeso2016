@@ -33,7 +33,7 @@ public class MobileAppDisplay implements Observer, Displayable {
         for(Scorer scorer : scorers) {
             System.out.println(scorer.getName() + " (" + scorer.getNumber() + ") " + "(" + scorer.getTeam() + ") " + scorer.getPosition());
         }
-        System.out.println("\nSent from Jamaicon Sports Mobile");
+        System.out.println("\nSent from Jamaicon Sports Mobile\n\n");
     }
 
     public void update(String home, String away, int homeGoals, int awayGoals, ArrayList<Scorer> scorers) {
@@ -45,7 +45,7 @@ public class MobileAppDisplay implements Observer, Displayable {
         display();
     }
 
-    public void activeNotifications () {
+    public void activateNotifications () {
         scoresData.registerObserver(this);
     }
 
