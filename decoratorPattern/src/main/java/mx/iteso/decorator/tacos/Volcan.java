@@ -8,11 +8,11 @@ import mx.iteso.decorator.Taco;
 public class Volcan extends Taco {
     public Volcan() {
         description = "Volcan";
-        this.size = NORMAL;
+        this.size = Size.NORMAL;
     }
 
     @Override
-    public int getSize() { return this.size;}
+    public Size getSize() { return this.size;}
 
     @Override
     public double cost() { return 10;}
