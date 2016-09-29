@@ -46,7 +46,7 @@ public class TuTaco {
 //        System.out.println(taco3.getDescription());
 //        System.out.println("$" + taco3.cost() + " MXN");
 
-        Taco quesadilla = new Quesadilla(Taco.MINI);
+        Taco quesadilla = new Quesadilla(Taco.Size.MINI);
         quesadilla = new Fish(quesadilla);
         System.out.println(quesadilla.getDescription());
         System.out.println("$" + quesadilla.cost() + " MXN");
