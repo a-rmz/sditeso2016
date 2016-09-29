@@ -7,7 +7,14 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
+<<<<<<< HEAD
+import static org.mockito.Mockito.mock;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+=======
 import static org.mockito.Mockito.*;
+>>>>>>> b5eae95ceada6bdcb59524bdf3f7a4e68b07a79f
 
 public class StoreMonitorDisplayTest {
     private StoreMonitorDisplay storeMonitorDisplay;

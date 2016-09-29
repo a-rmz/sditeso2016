@@ -7,7 +7,13 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
+<<<<<<< HEAD
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+=======
 import static org.mockito.Mockito.*;
+>>>>>>> b5eae95ceada6bdcb59524bdf3f7a4e68b07a79f
 
 /**
  * Created by fernando on 22/09/16.
@@ -46,5 +52,17 @@ public class MobileAppDisplayTest {
         verify(scoresData, times(1)).removeObserver(mobileAppDisplay);
     }
 
+<<<<<<< HEAD
+    @Test
+    public void testActiveNotifications(){
 
+    }
+
+    @Test
+    public void testDeactvieNotifications(){
+
+    }
+=======
+
+>>>>>>> b5eae95ceada6bdcb59524bdf3f7a4e68b07a79f
 }
