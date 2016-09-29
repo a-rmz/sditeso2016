@@ -17,7 +17,17 @@ public class Lengua  extends CondimentsDecorator {
 
     @Override
     public double cost() {
-        return 2 + taco.cost();
+        double size = 2.00;
+        switch (getSize()) {
+            case Taco.MINI:
+                size -= 1.50;
+                break;
+            case Taco.MEGA:
+                size += 4.00;
+                break;
+
+        }
+        return size + taco.cost();
     }
 
     @Override

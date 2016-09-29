@@ -17,7 +17,17 @@ public class Queso extends CondimentsDecorator {
 
     @Override
     public double cost() {
-        return 2.00 + taco.cost();
+        double size = 2.00;
+        switch (getSize()) {
+            case Taco.MINI:
+                size -= 1.50;
+                break;
+            case Taco.MEGA:
+                size += 2.00;
+                break;
+
+        }
+        return size + taco.cost();
     }
 
     @Override
