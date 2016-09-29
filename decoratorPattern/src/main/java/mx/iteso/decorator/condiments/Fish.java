@@ -32,4 +32,9 @@ public class Fish extends CondimentsDecorator{
     public int getSize() {
         return taco.size;
     }
+
+    public int getSize() {
+        return taco.getSize();
+    }
+
 }

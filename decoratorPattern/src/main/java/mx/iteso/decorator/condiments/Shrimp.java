@@ -29,7 +29,7 @@ public class Shrimp extends CondimentsDecorator{
     }
 
     @Override
-    public int getSize() {
-        return taco.size;
+    public int getSize() { return taco.getSize();
     }
+
 }

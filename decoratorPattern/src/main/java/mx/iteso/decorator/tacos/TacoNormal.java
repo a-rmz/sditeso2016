@@ -16,4 +16,5 @@ public class TacoNormal extends Taco {
     public int getSize() {
         return this.size;
     }
+
 }

@@ -31,7 +31,6 @@ public class Bistec extends CondimentsDecorator {
     }
 
     @Override
-    public int getSize() {
-        return taco.getSize();
-    }
+    public int getSize() { return taco.getSize();}
+
 }

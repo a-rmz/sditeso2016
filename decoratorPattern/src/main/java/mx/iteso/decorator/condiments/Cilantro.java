@@ -11,9 +11,7 @@ public class Cilantro extends CondimentsDecorator {
     }
 
     @Override
-    public String getDescription() {
-        return taco.getDescription() + " con cilantro";
-    }
+    public String getDescription() { return taco.getDescription() + " con cilantro";}
 
     @Override
     public double cost() {
@@ -24,4 +22,5 @@ public class Cilantro extends CondimentsDecorator {
     public int getSize() {
         return taco.getSize();
     }
+
 }
