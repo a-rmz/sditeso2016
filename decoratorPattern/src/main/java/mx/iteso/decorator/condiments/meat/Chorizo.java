@@ -18,19 +18,15 @@ public class Chorizo extends CondimentsDecorator {
     @Override
     public double cost() {
         double size = 0.00;
-        switch (getSize()) {
-            case Taco.MINI:
-                size -= 1.50;
-                break;
-            case Taco.MEGA:
-                size += 2.00;
-                break;
+        if(this.size == Size.MINI)
+            size -= 1.50;
+        else if(this.size == Size.MEGA)
+            size += 2.00;
 
-        }
         return size + taco.cost();
     }
 
     @Override
-    public int getSize() { return taco.getSize();}
+    public Size getSize() { return taco.getSize();}
 
 }
