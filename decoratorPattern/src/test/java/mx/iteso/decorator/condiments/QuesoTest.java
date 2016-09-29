@@ -18,18 +18,36 @@ public class QuesoTest {
     }
 
     @Test
-    public void testCost(){
+    public void testCostMini(){
         Taco queso = new Queso(taco);
-        when(taco.cost()).thenReturn(8.0);
-        when(taco.getSize()).thenReturn(taco.MINI);
+        when(taco.cost()).thenReturn(6.5);
+        when(taco.getSize()).thenReturn(Taco.Size.MINI);
         double cost = queso.cost();
         assertEquals(6.5, cost,0);
     }
+
+    @Test
+    public void testCostRegular(){
+        Taco queso = new Queso(taco);
+        when(taco.cost()).thenReturn(8.0);
+        double cost = queso.cost();
+        assertEquals(8.0, cost,0);
+    }
+
+    @Test
+    public void testCostMega(){
+        Taco queso = new Queso(taco);
+        when(taco.cost()).thenReturn(10.0);
+        when(taco.getSize()).thenReturn(Taco.Size.MEGA);
+        double cost = queso.cost();
+        assertEquals(10.0, cost,0);
+    }
+
     @Test
     public void testDescription(){
-        Taco cebolla = new Cebolla(taco);
+        Taco queso = new Queso(taco);
         when(taco.getDescription()).thenReturn("Taco Normal");
-        String desc = cebolla.getDescription();
-        assertEquals("Taco Normal con cebolla", desc);
+        String desc = queso.getDescription();
+        assertEquals("Taco Normal con queso", desc);
     }
 }
