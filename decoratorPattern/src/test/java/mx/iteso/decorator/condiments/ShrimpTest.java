@@ -23,13 +23,23 @@ public class ShrimpTest {
         when(taco.cost()).thenReturn(8.0);
         when(taco.getSize()).thenReturn(Taco.Size.NORMAL);
         double cost = shrimp.cost();
-        assertEquals(8.0, cost,0);
+        assertEquals(12.0, cost,0);
     }
+
+    @Test
+    public void testCostMega(){
+        Taco shrimp = new Shrimp(taco);
+        when(taco.cost()).thenReturn(8.0);
+        when(taco.getSize()).thenReturn(Taco.Size.MEGA);
+        double cost = shrimp.cost();
+        assertEquals(15.0, cost,0);
+    }
+
     @Test
     public void testDescription(){
-        Taco tortillaHarina = new TortillaHarina(taco);
+        Taco shrimp = new Shrimp(taco);
         when(taco.getDescription()).thenReturn("Taco Normal");
-        String desc = tortillaHarina.getDescription();
-        assertEquals("Taco Normal en tortilla de harina", desc);
+        String desc = shrimp.getDescription();
+        assertEquals("Taco Normal con camaron", desc);
     }
 }
