@@ -14,7 +14,7 @@ public class QuesadillaTest {
     @Test
     public void testCost() {
         Taco taco = new Quesadilla(Taco.Size.MINI);
-        assertEquals(8.00, taco.cost(), 0);
+        assertEquals(10.00, taco.cost(), 0);
     }
 
 }
