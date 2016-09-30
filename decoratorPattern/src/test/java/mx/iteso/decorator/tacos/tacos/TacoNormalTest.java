@@ -12,7 +12,7 @@ public class TacoNormalTest {
     @Test
     public void testCost() {
         Taco taco = new TacoNormal(Taco.Size.NORMAL);
-        assertEquals(10.00, taco.cost(), 0);
+        assertEquals(8.00, taco.cost(), 0);
     }
 
 }
