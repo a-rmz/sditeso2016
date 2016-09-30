@@ -22,7 +22,7 @@ public class TortillaHarinaTest {
         Taco tortillaHarina = new TortillaHarina(taco);
         when(taco.cost()).thenReturn(8.0);
         double cost = tortillaHarina.cost();
-        assertEquals(8.0, cost,0);
+        assertEquals(12.0, cost,0);
     }
     @Test
     public void testDescription(){

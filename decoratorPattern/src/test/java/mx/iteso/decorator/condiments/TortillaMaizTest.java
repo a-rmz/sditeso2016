@@ -26,7 +26,7 @@ public class TortillaMaizTest {
     }
     @Test
     public void testDescription(){
-        Taco tortillaMaiz = new Cebolla(taco);
+        Taco tortillaMaiz = new TortillaMaiz(taco);
         when(taco.getDescription()).thenReturn("Taco Normal");
         String desc = tortillaMaiz.getDescription();
         assertEquals("Taco Normal en tortilla de maíz", desc);
