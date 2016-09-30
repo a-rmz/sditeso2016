@@ -15,6 +15,6 @@ public class Volcan extends Taco {
     public Size getSize() { return this.size;}
 
     @Override
-    public double cost() { return 10;}
+    public double cost() { return 10.00;}
 
 }

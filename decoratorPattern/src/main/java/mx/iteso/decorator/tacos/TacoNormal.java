@@ -8,6 +8,8 @@ public class TacoNormal extends Taco {
         this.size = size;
     }
 
+    private TacoNormal() {}
+
     @Override
     public double cost() {
         return 8.00;
