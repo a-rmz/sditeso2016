@@ -1,18 +1,21 @@
 package mx.iteso.decorator.tacos.tacos;
 
 import mx.iteso.decorator.Taco;
-import mx.iteso.decorator.tacos.Quesadilla;
-import mx.iteso.decorator.tacos.TacoNormal;
+import mx.iteso.decorator.tacos.Volcan;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class TacoNormalTest {
+/**
+ * Created by a-rmz on 9/30/16.
+ */
+public class VolcanTest {
 
     @Test
     public void testCost() {
-        Taco taco = new Quesadilla(Taco.Size.NORMAL);
+        Taco taco = new Volcan();
         assertEquals(10.00, taco.cost(), 0);
     }
+
 
 }
