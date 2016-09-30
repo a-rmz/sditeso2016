@@ -8,6 +8,9 @@ public class Quesadilla extends Taco {
         this.size = size;
     }
 
+    private Quesadilla() {}
+
+
     @Override
     public double cost() {return 10.00;}
 
