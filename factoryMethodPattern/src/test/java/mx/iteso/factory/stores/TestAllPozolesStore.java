@@ -20,10 +20,64 @@ public class TestAllPozolesStore {
 
     @Test
     public void testPozoleRojo() {
-        Pozole pozoleRojoPollo = allStore.createPozole(PozoleType.POZOLE_ROJO, PozoleType.POLLO);
+        Pozole pozoleRojo = allStore.createPozole(PozoleType.POZOLE_ROJO, PozoleType.POLLO);
         Assert.assertEquals(
-                pozoleRojoPollo.getName(),
-                PozoleType.POZOLE_ROJO.getName() + " con " + PozoleType.POLLO.getName()
+                PozoleType.POZOLE_ROJO.getName() + " with "
+                        + PozoleType.COL.getName() + " with "
+                        + PozoleType.OREGANO.getName() + " with "
+                        + PozoleType.RABANOS.getName() + " with "
+                        + PozoleType.POLLO.getName(),
+                pozoleRojo.getName()
+        );
+    }
+
+    @Test
+    public void testPozoleVerde() {
+        Pozole pozoleVerde = allStore.createPozole(PozoleType.POZOLE_VERDE, PozoleType.RES);
+        Assert.assertEquals(
+                PozoleType.POZOLE_VERDE.getName() + " with "
+                        + PozoleType.COL.getName() + " with "
+                        + PozoleType.LECHUGA.getName() + " with "
+                        + PozoleType.RABANOS.getName() + " with "
+                        + PozoleType.RES.getName(),
+                pozoleVerde.getName()
+        );
+    }
+
+    @Test
+    public void testPozoleBlanco() {
+        Pozole pozoleBlanco = allStore.createPozole(PozoleType.POZOLE_BLANCO, PozoleType.CACHETE);
+        Assert.assertEquals(
+                PozoleType.POZOLE_BLANCO.getName() + " with "
+                        + PozoleType.CEBOLLA.getName() + " with "
+                        + PozoleType.OREGANO.getName() + " with "
+                        + PozoleType.RABANOS.getName() + " with "
+                        + PozoleType.CACHETE.getName(),
+                pozoleBlanco.getName()
+        );
+    }
+
+    @Test
+    public void testMenudo() {
+        Pozole menudo = allStore.createPozole(PozoleType.MENUDO, PozoleType.CACHETE);
+        Assert.assertEquals(
+                PozoleType.MENUDO.getName() + " with "
+                        + PozoleType.OREGANO.getName() + " with "
+                        + PozoleType.COL.getName() + " with "
+                        + PozoleType.RABANOS.getName(),
+                menudo.getName()
+        );
+    }
+
+    @Test
+    public void testPozolillo() {
+        Pozole pozolillo = allStore.createPozole(PozoleType.POZOLILLO, PozoleType.CACHETE);
+        Assert.assertEquals(
+                PozoleType.POZOLILLO.getName() + " with "
+                        + PozoleType.COL.getName() + " with "
+                        + PozoleType.OREGANO.getName() + " with "
+                        + PozoleType.LECHUGA.getName(),
+                pozolillo.getName()
         );
     }
 }
