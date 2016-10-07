@@ -6,7 +6,7 @@ import mx.iteso.factory.PozoleType;
 /**
  * Created by a-rmz on 10/7/16.
  */
-public class Oreja  extends Pozole {
+public class Oreja extends Pozole {
     Pozole pozole;
 
     public Oreja(Pozole pozole) {
@@ -21,11 +21,11 @@ public class Oreja  extends Pozole {
 
     @Override
     public String prepare() {
-        return pozole.prepare() + "\nAdding " + PozoleType.OREJA;
+        return pozole.prepare() + "\nAdding " + PozoleType.OREJA.getName();
     }
 
     @Override
     public String getName() {
-        return pozole.getName() + " with " + PozoleType.OREJA;
+        return pozole.getName() + " with " + PozoleType.OREJA.getName();
     }
 }

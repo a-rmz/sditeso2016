@@ -21,11 +21,11 @@ public class Cebolla extends Pozole {
 
     @Override
     public String prepare() {
-        return pozole.prepare() + "\nAdding " + PozoleType.CEBOLLA;
+        return pozole.prepare() + "\nAdding " + PozoleType.CEBOLLA.getName();
     }
 
     @Override
     public String getName() {
-        return pozole.getName() + " with " + PozoleType.CEBOLLA;
+        return pozole.getName() + " with " + PozoleType.CEBOLLA.getName();
     }
 }

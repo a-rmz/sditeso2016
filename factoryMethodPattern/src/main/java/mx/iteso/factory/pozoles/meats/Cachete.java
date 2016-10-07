@@ -20,11 +20,11 @@ public class Cachete extends Pozole {
 
     @Override
     public String prepare() {
-        return pozole.prepare() + "\nAdding " + PozoleType.CACHETE;
+        return pozole.prepare() + "\nAdding " + PozoleType.CACHETE.getName();
     }
 
     @Override
     public String getName() {
-        return pozole.getName() + " with " + PozoleType.CACHETE;
+        return pozole.getName() + " with " + PozoleType.CACHETE.getName();
     }
 }

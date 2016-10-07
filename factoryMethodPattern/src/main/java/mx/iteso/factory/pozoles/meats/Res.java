@@ -21,11 +21,11 @@ public class Res extends Pozole {
 
     @Override
     public String prepare() {
-        return pozole.prepare() + "\nAdding " + PozoleType.RES;
+        return pozole.prepare() + "\nAdding " + PozoleType.RES.getName();
     }
 
     @Override
     public String getName() {
-        return pozole.getName() + " with " + PozoleType.RES;
+        return pozole.getName() + " with " + PozoleType.RES.getName();
     }
 }

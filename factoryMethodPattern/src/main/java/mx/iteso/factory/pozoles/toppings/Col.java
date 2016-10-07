@@ -21,11 +21,11 @@ public class Col extends Pozole {
 
     @Override
     public String prepare() {
-        return pozole.prepare() + "\nAdding " + PozoleType.COL;
+        return pozole.prepare() + "\nAdding " + PozoleType.COL.getName();
     }
 
     @Override
     public String getName() {
-        return pozole.getName() + " with " + PozoleType.COL;
+        return pozole.getName() + " with " + PozoleType.COL.getName();
     }
 }

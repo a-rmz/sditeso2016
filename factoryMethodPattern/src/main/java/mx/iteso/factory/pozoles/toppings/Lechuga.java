@@ -21,11 +21,11 @@ public class Lechuga extends Pozole {
 
     @Override
     public String prepare() {
-        return pozole.prepare() + "\nAdding " + PozoleType.LECHUGA;
+        return pozole.prepare() + "\nAdding " + PozoleType.LECHUGA.getName();
     }
 
     @Override
     public String getName() {
-        return pozole.getName() + " with " + PozoleType.LECHUGA;
+        return pozole.getName() + " with " + PozoleType.LECHUGA.getName();
     }
 }

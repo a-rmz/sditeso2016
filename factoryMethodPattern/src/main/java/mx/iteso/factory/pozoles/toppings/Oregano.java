@@ -21,11 +21,11 @@ public class Oregano extends Pozole {
 
     @Override
     public String prepare() {
-        return pozole.prepare() + "\nAdding " + PozoleType.OREGANO;
+        return pozole.prepare() + "\nAdding " + PozoleType.OREGANO.getName();
     }
 
     @Override
     public String getName() {
-        return pozole.getName() + " with " + PozoleType.OREGANO;
+        return pozole.getName() + " with " + PozoleType.OREGANO.getName();
     }
 }

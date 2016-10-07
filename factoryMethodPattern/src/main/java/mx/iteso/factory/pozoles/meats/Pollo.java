@@ -21,11 +21,11 @@ public class Pollo extends Pozole {
 
     @Override
     public String prepare() {
-        return pozole.prepare() + "\nAdding " + PozoleType.POLLO;
+        return pozole.prepare() + "\nAdding " + PozoleType.POLLO.getName();
     }
 
     @Override
     public String getName() {
-        return pozole.getName() + " with " + PozoleType.POLLO;
+        return pozole.getName() + " with " + PozoleType.POLLO.getName();
     }
 }

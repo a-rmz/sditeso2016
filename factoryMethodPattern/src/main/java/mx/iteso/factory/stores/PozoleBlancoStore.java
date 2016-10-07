@@ -3,7 +3,8 @@ package mx.iteso.factory.stores;
 import mx.iteso.factory.Pozole;
 import mx.iteso.factory.PozoleStore;
 import mx.iteso.factory.PozoleType;
-import mx.iteso.factory.pozoles.*;
+import mx.iteso.factory.pozoles.basePozoles.PozoleBlanco;
+import mx.iteso.factory.pozoles.meats.*;
 
 /**
  * Created by fernando on 6/10/16.
@@ -11,19 +12,25 @@ import mx.iteso.factory.pozoles.*;
 public class PozoleBlancoStore extends PozoleStore {
 
     protected Pozole createPozole(PozoleType meat) {
+        Pozole pozole = new PozoleBlanco();
         switch (meat) {
             case POLLO:
-                return new PozoleRojoPollo();
+                return new Pollo(pozole);
+            case CAMARON:
+                return new Camaron(pozole);
             case CACHETE:
-                return new PozoleBlancoCachete();
+                return new Cachete(pozole);
             case OREJA:
-                return new PozoleBlancoOreja();
+                return new Oreja(pozole);
             case PIERNA:
-                return new PozoleBlancoPierna();
+                return new Pierna(pozole);
             case TROMPA:
-                return new PozoleBlancoTrompa();
+                return new Trompa(pozole);
+            case RES:
+                return new Res(pozole);
             default:
                 return null;
         }
     }
 }
+

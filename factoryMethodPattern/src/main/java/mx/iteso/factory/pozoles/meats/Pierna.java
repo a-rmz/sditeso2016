@@ -21,11 +21,11 @@ public class Pierna extends Pozole {
 
     @Override
     public String prepare() {
-        return pozole.prepare() + "\nAdding " + PozoleType.PIERNA;
+        return pozole.prepare() + "\nAdding " + PozoleType.PIERNA.getName();
     }
 
     @Override
     public String getName() {
-        return pozole.getName() + " with " + PozoleType.PIERNA;
+        return pozole.getName() + " with " + PozoleType.PIERNA.getName();
     }
 }

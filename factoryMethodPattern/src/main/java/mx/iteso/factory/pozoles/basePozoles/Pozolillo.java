@@ -15,6 +15,6 @@ public class Pozolillo extends Pozole {
 
     @Override
     public String serve() {
-        return  "Serving our special Pozolillo in the magnificent Pozolillo plates...";
+        return "Serving our special Pozolillo in the magnificent Pozolillo plates...";
     }
 }

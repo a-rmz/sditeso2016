@@ -21,11 +21,11 @@ public class Rabano extends Pozole {
 
     @Override
     public String prepare() {
-        return pozole.prepare() + "\nAdding " + PozoleType.RABANOS;
+        return pozole.prepare() + "\nAdding " + PozoleType.RABANOS.getName();
     }
 
     @Override
     public String getName() {
-        return pozole.getName() + " with " + PozoleType.RABANOS;
+        return pozole.getName() + " with " + PozoleType.RABANOS.getName();
     }
 }

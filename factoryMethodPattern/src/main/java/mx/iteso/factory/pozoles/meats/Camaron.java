@@ -21,11 +21,11 @@ public class Camaron extends Pozole {
 
     @Override
     public String prepare() {
-        return pozole.prepare() + "\nAdding " + PozoleType.CAMARON;
+        return pozole.prepare() + "\nAdding " + PozoleType.CAMARON.getName();
     }
 
     @Override
     public String getName() {
-        return pozole.getName() + " with " + PozoleType.CAMARON;
+        return pozole.getName() + " with " + PozoleType.CAMARON.getName();
     }
 }

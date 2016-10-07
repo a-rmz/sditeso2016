@@ -6,7 +6,7 @@ import mx.iteso.factory.PozoleType;
 /**
  * Created by a-rmz on 10/7/16.
  */
-public class Trompa  extends Pozole {
+public class Trompa extends Pozole {
     Pozole pozole;
 
     public Trompa(Pozole pozole) {
@@ -21,11 +21,11 @@ public class Trompa  extends Pozole {
 
     @Override
     public String prepare() {
-        return pozole.prepare() + "\nAdding " + PozoleType.TROMPA;
+        return pozole.prepare() + "\nAdding " + PozoleType.TROMPA.getName();
     }
 
     @Override
     public String getName() {
-        return pozole.getName() + " with " + PozoleType.TROMPA;
+        return pozole.getName() + " with " + PozoleType.TROMPA.getName();
     }
 }
