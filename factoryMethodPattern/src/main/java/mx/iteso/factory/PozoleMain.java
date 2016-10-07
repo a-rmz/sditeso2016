@@ -16,7 +16,7 @@ public class PozoleMain {
         System.out.println("First order is: " + pozole.getName());
         System.out.println();
 
-        pozole = rojoStore.orderPozole(PozoleType.POLLO);
+        pozole = rojoStore.orderPozole(PozoleType.RES);
         System.out.println("Second order is: " + pozole.getName());
         System.out.println();
 
