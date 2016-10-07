@@ -9,6 +9,10 @@ import mx.iteso.factory.PozoleType;
 public class Cachete extends Pozole {
     Pozole pozole;
 
+    public Cachete(Pozole pozole) {
+        this.pozole = pozole;
+    }
+
     @Override
     public String serve() {
         return pozole.serve();

@@ -9,6 +9,11 @@ import mx.iteso.factory.PozoleType;
 public class Trompa  extends Pozole {
     Pozole pozole;
 
+    public Trompa(Pozole pozole) {
+        this.pozole = pozole;
+    }
+
+
     @Override
     public String serve() {
         return pozole.serve();

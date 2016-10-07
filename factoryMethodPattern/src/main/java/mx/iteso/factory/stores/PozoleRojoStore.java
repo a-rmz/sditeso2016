@@ -4,10 +4,12 @@ import mx.iteso.factory.Pozole;
 import mx.iteso.factory.PozoleStore;
 import mx.iteso.factory.PozoleType;
 import mx.iteso.factory.pozoles.*;
+import mx.iteso.factory.pozoles.basePozoles.PozoleRojo;
 
 public class PozoleRojoStore extends PozoleStore {
 
     protected Pozole createPozole(PozoleType meat) {
+        Pozole pozole = new PozoleRojo();
         switch (meat) {
             case POLLO:
                 return new PozoleRojoPollo();
