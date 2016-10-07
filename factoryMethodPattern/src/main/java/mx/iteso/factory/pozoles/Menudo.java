@@ -13,6 +13,6 @@ public class Menudo extends Pozole {
 
     @Override
     public void serve() {
-        System.out.println("Serving xtra hot in special menudo plate..." );
+        System.out.println("Serving xtra hot in special menudo plate...");
     }
 }

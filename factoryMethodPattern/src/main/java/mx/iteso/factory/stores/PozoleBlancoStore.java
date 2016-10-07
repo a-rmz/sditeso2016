@@ -2,6 +2,7 @@ package mx.iteso.factory.stores;
 
 import mx.iteso.factory.Pozole;
 import mx.iteso.factory.PozoleStore;
+import mx.iteso.factory.PozoleType;
 import mx.iteso.factory.pozoles.*;
 
 /**
@@ -9,18 +10,20 @@ import mx.iteso.factory.pozoles.*;
  */
 public class PozoleBlancoStore extends PozoleStore {
 
-    @Override
-    protected Pozole createPozole(String meat) {
-        if (meat.equals("pollo"))
-            return new PozoleBlancoPollo();
-        else if (meat.equals("cachete") )
-            return new PozoleBlancoCachete();
-        else if (meat.equals("oreja"))
-            return new PozoleBlancoOreja();
-        else if (meat.equals("pierna") )
-            return new PozoleBlancoPierna();
-        else if (meat.equals("trompa"))
-            return new PozoleBlancoTrompa();
-        else return null;
+    protected Pozole createPozole(PozoleType meat) {
+        switch (meat) {
+            case POLLO:
+                return new PozoleRojoPollo();
+            case CACHETE:
+                return new PozoleBlancoCachete();
+            case OREJA:
+                return new PozoleBlancoOreja();
+            case PIERNA:
+                return new PozoleBlancoPierna();
+            case TROMPA:
+                return new PozoleBlancoTrompa();
+            default:
+                return null;
+        }
     }
 }

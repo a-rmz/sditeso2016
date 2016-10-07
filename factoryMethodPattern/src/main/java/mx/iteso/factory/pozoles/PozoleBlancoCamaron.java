@@ -6,7 +6,7 @@ import mx.iteso.factory.Pozole;
  * Created by fernando on 6/10/16.
  */
 public class PozoleBlancoCamaron extends Pozole {
-    public PozoleBlancoCamaron () {
+    public PozoleBlancoCamaron() {
         name = "Pozole Blanco con Camaron";
         broth = "Caldo BLanco";
         toppings.add("Oregano");
