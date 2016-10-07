@@ -18,7 +18,7 @@ public class Bistec extends CondimentsDecorator {
     @Override
     public double cost() {
         double size = 0.00;
-        if(getSize() == Size.MINI)
+        if( getSize() == Size.MINI)
             size -= 1.50;
         else if(getSize() == Size.MEGA)
             size += 2.00;
