@@ -2,7 +2,7 @@ package mx.iteso.factory;
 
 public abstract class PozoleStore {
 
-    public Pozole orderPozole(String meat){
+    public Pozole orderPozole(PozoleType meat) {
         Pozole pozole;
 
         pozole = createPozole(meat);
@@ -13,5 +13,5 @@ public abstract class PozoleStore {
         return pozole;
     }
 
-    protected abstract Pozole createPozole(String meat);
+    protected abstract Pozole createPozole(PozoleType meat);
 }

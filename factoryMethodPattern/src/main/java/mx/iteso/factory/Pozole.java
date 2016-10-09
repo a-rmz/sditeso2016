@@ -7,22 +7,21 @@ public abstract class Pozole {
     public String broth;
     public ArrayList toppings = new ArrayList();
 
-
-    public void serve() {
-        System.out.println("Serving in regular pozole plate..." );
+    // TODO call base pozole serve method
+    public String serve() {
+        return "Serving in regular pozole plate...";
     }
 
-    public void prepare() {
-        System.out.println("Preparing " + name);
-        System.out.println("Adding corn kernels..." );
-        System.out.println("Adding broth..." );
-        System.out.println("Adding toppings:" );
-        for (int i = 0; i < toppings.size(); i++){
-            System.out.println("    " + toppings.get(i));
-        }
-
+    // TODO call base pozole prepare method concatenating each condiment
+    public String prepare() {
+        String out = "Preparing " + name +
+                "\nAdding corn kernels..." +
+                "\nAdding broth..." +
+                "\nAdding toppings:";
+        return out;
     }
-    public String getName(){
+
+    public String getName() {
         return name;
     }
 }
