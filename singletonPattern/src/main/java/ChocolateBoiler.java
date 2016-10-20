@@ -6,6 +6,14 @@ public class ChocolateBoiler {
     private boolean empty;
     private boolean boiled;
 
+    private static class ChocolateBoilerHandler {
+        static final ChocolateBoiler instance = new ChocolateBoiler();
+    }
+
+    public static ChocolateBoiler getInstance() {
+        return ChocolateBoilerHandler.instance;
+    }
+
     private ChocolateBoiler() {
         empty = true;
         boiled = false;
