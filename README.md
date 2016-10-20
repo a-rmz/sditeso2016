@@ -16,3 +16,6 @@ Contents of this repo:
 * [Decorator Pattern](https://github.com/a-rmz/sditeso2016/tree/master/decoratorPattern)
     * Alejandro Ramírez Pérez
     * J. Fernando Villanueva Sánchez
+* [Factory Pattern](https://github.com/a-rmz/sditeso2016/tree/master/factoryMethodPattern)
+    * Alejandro Ramírez Pérez
+    * J. Fernando Villanueva Sánchez
