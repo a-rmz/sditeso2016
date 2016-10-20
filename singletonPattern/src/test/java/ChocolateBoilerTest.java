@@ -6,25 +6,29 @@ import org.junit.Test;
  * Created by fernando on 20/10/16.
  */
 public class ChocolateBoilerTest {
-    private ChocolateBoiler chocolateBoiler;
+    private ChocolateBoiler chocolateBoiler1;
+    private ChocolateBoiler chocolateBoiler2;
 
     @Before
     public void setup () {
-        chocolateBoiler = ChocolateBoiler.getInstance();
+        chocolateBoiler1 = ChocolateBoiler.getInstance();
+        chocolateBoiler2 = ChocolateBoiler.getInstance();
     }
 
     @Test
     public void testFill (){
-        chocolateBoiler.fill();
+        chocolateBoiler1.fill();
+        Assert.assertEquals(false, chocolateBoiler1.isEmpty());
+        Assert.assertEquals(false, chocolateBoiler1.isBoiled());
     }
 
     @Test
     public void testDrain (){
-        chocolateBoiler.drain();
+        chocolateBoiler1.drain();
     }
 
     @Test
     public void testBoil (){
-        chocolateBoiler.boil();
+        chocolateBoiler1.boil();
     }
 }
