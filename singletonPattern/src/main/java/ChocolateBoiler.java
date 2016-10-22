@@ -1,7 +1,7 @@
 /**
  * Created by a-rmz on 10/20/16.
  */
-public class ChocolateBoiler {
+public class ChocolateBoiler{
 
     private boolean empty;
     private boolean boiled;
