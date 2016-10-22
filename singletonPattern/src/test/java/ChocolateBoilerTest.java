@@ -200,6 +200,16 @@ public class ChocolateBoilerTest {
     }
 
     @Test
+    public void testOverDrain () {
+        chocolateBoiler1.fill();
+        chocolateBoiler1.boil();
+        chocolateBoiler1.drain();
+        chocolateBoiler1.drain();
+        Assert.assertEquals(true, chocolateBoiler1.isEmpty());
+        Assert.assertEquals(true, chocolateBoiler1.isBoiled());
+    }
+
+    @Test
     public void testIsEmpty () {
         chocolateBoiler1.fill();
         Assert.assertEquals(false, chocolateBoiler1.isEmpty());

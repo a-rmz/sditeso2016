@@ -197,6 +197,16 @@ public class SynchronizedChocolateBoilerTest {
     }
 
     @Test
+    public void testOverDrain () {
+        synchronizedChocolateBoile1.fill();
+        synchronizedChocolateBoile1.boil();
+        synchronizedChocolateBoile1.drain();
+        synchronizedChocolateBoile1.drain();
+        Assert.assertEquals(true, synchronizedChocolateBoile1.isEmpty());
+        Assert.assertEquals(true, synchronizedChocolateBoile1.isBoiled());
+    }
+
+    @Test
     public void testIsEmpty () {
         synchronizedChocolateBoile1.fill();
         Assert.assertEquals(false, synchronizedChocolateBoile1.isEmpty());
