@@ -9,7 +9,7 @@ public class TortaPlate {
         tortas = new ArrayList();
     }
 
-   public void addTaco(Torta torta){
+   public void addTorta(Torta torta){
        tortas.add(torta);
    }
 

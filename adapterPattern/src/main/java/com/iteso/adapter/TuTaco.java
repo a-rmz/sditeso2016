@@ -9,18 +9,25 @@ import com.iteso.adapter.impl.TortaBistec;
  */
 public class TuTaco {
     public static void main (String[] args){
-        Taco tacolLengua = new TacoLengua();
+        /*Taco tacolLengua = new TacoLengua();
         Torta tortaBistec = new TortaBistec();
         TacoPlate myPlate = new TacoPlate();
 
         Taco convertedToTaco = new TortaAdapter(tortaBistec);
-
-
-
         myPlate.addTaco(tacolLengua);
         myPlate.addTaco(convertedToTaco);
 
-        myPlate.servePlate();
+        myPlate.servePlate();*/
+
+        Taco taco = new TacoLengua();
+        Torta torta = new TortaBistec();
+        Torta convertedTorta = new TacoAdapter(taco);
+        TortaPlate myTortaPlate = new TortaPlate();
+
+        myTortaPlate.addTorta(convertedTorta);
+        myTortaPlate.addTorta(torta);
+
+       myTortaPlate.servePlate();
 
     }
 }
