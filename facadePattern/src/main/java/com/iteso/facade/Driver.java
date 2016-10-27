@@ -32,6 +32,11 @@ public class Driver {
 
         videoGameFacade.playOnlineGame("Gears Of Wars");
 
+
+        MovieFacade movieFacade = new MovieFacade(tv, ps3,dualShock,bose,linksys,lights);
+        movieFacade.playMovie("Star Wars VII");
+
+        movieFacade.stopMovie();
     }
 
 }
