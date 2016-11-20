@@ -8,7 +8,7 @@ import mx.iteso.stateDesign.impl.States.SadState;
  * Created by fernando on 17/11/16.
  */
 public class StateDemo {
-    public static void main() {
+    public static void main(String[] args) {
         Context context = new Context();
 
         AngryState angry= new AngryState();
