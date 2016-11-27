@@ -19,3 +19,6 @@ Contents of this repo:
 * [Factory Pattern](https://github.com/a-rmz/sditeso2016/tree/master/factoryMethodPattern)
     * Alejandro Ramírez Pérez
     * J. Fernando Villanueva Sánchez
+* [State Pattern](https://github.com/a-rmz/sditeso2016/tree/master/stateDesignPattern)
+    * Alejandro Ramírez Pérez
+* J. Fernando Villanueva Sánchez

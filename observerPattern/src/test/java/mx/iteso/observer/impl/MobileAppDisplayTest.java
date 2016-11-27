@@ -51,6 +51,8 @@ public class MobileAppDisplayTest {
         verify(scoresData, times(1)).removeObserver(mobileAppDisplay);
     }
 
+<<<<<<< HEAD
+=======
     @Test
     public void testActiveNotifications(){
 
@@ -60,5 +62,6 @@ public class MobileAppDisplayTest {
     public void testDeactvieNotifications(){
 
     }
+>>>>>>> 55ed0a291cfddd2396c78254fee800d79770f81a
 
 }

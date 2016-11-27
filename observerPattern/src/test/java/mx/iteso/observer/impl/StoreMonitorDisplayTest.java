@@ -1,12 +1,16 @@
 package mx.iteso.observer.impl;
 
 import mx.iteso.observer.Scorer;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.util.ArrayList;
 
+<<<<<<< HEAD
+import static org.mockito.Mockito.mock;
+
+=======
+>>>>>>> 55ed0a291cfddd2396c78254fee800d79770f81a
 public class StoreMonitorDisplayTest {
     private StoreMonitorDisplay storeMonitorDisplay;
     private ScoresData scoresData;
